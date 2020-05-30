@@ -13,9 +13,9 @@ class MainContainer extends Viewport {
         layout   : {ntype: 'vbox', align: 'stretch'},
 
         items: [
-            {ntype: 'component', vdom:{style:{backgroundColor: 'black'}}},
-            {ntype: 'component', vdom:{style:{backgroundColor: 'red'}}},
-            {ntype: 'component', vdom:{style:{backgroundColor: 'yellow'}}}
+            {ntype: 'component', vdom: {innerHTML: 'Header'}},
+            {ntype: 'component', vdom: {innerHTML: 'Center'}},
+            {ntype: 'component', vdom: {innerHTML: 'Footer'}}
         ]
     }}
 }
