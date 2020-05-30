@@ -77,37 +77,37 @@ class HeaderContainer extends Container {
                             {cls: ['covid-numberbox-number', 'deaths']}
                         ]
                     }
+                }]
+            }, {
+                ntype : 'container',
+                layout: {ntype: 'hbox'},
+
+                itemDefaults: {
+                    ntype: 'component'
+                },
+
+                items: [{
+                    module : Button,
+                    flex   : 'none',
+                    handler: 'onSwitchThemeButtonClick',
+                    height : 25,
+                    iconCls: 'fa fa-sun',
+                    style  : {marginLeft: '10px', marginTop: '15px'},
+                    text   : 'Theme Light'
                 }, {
-                    ntype : 'container',
-                    layout: {ntype: 'hbox'},
-
-                    itemDefaults: {
-                        ntype: 'component'
-                    },
-
-                    items: [{
-                        module : Button,
-                        flex   : 'none',
-                        handler: 'onSwitchThemeButtonClick',
-                        height : 25,
-                        iconCls: 'fa fa-sun',
-                        style  : {marginLeft: '10px', marginTop: '15px'},
-                        text   : 'Theme Light'
-                    }, {
-                        module : Button,
-                        flex   : 'none',
-                        handler: 'onReloadDataButtonClick',
-                        height : 25,
-                        iconCls: 'fa fa-sync-alt',
-                        style  : {marginLeft: '10px', marginTop: '15px'},
-                        text   : 'Reload Data'
-                    }, {
-                        module   : Label,
-                        height   : 25,
-                        reference: 'last-update',
-                        style    : {marginLeft: '10px', marginTop: '18px'},
-                        text     : ''
-                    }]
+                    module : Button,
+                    flex   : 'none',
+                    handler: 'onReloadDataButtonClick',
+                    height : 25,
+                    iconCls: 'fa fa-sync-alt',
+                    style  : {marginLeft: '10px', marginTop: '15px'},
+                    text   : 'Reload Data'
+                }, {
+                    module   : Label,
+                    height   : 25,
+                    reference: 'last-update',
+                    style    : {marginLeft: '10px', marginTop: '18px'},
+                    text     : 'Last Update:'
                 }]
             }]
         }]
