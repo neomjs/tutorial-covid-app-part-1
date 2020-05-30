@@ -12,13 +12,33 @@ class MainContainerController extends ComponentController {
          * @private
          */
         className: 'Covid.view.MainContainerController',
+        /**
+         * @member {String} apiSummaryUrl='https://corona.lmao.ninja/v2/all'
+         */
+        apiSummaryUrl: 'https://corona.lmao.ninja/v2/all'
     }}
+
+    applySummaryData(data) {
+        console.log('applySummaryData', data);
+    }
+
+    /**
+     *
+     */
+    loadSummaryData() {
+        const me = this;
+
+        fetch(me.apiSummaryUrl)
+            .then(response => response.json())
+            .then(data => me.applySummaryData(data))
+            .catch(err => console.log('Can’t access ' + me.apiSummaryUrl, err));
+    }
 
     /**
      * @param {Object} data
      */
     onReloadDataButtonClick(data) {
-        console.log('onReloadDataButtonClick');
+        this.loadSummaryData();
     }
 
     /**
