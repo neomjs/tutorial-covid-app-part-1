@@ -10,9 +10,13 @@ class MainContainer extends Viewport {
         ntype    : 'main-container',
 
         autoMount: true,
-        layout   : {ntype: 'fit'},
+        layout   : {ntype: 'vbox', align: 'stretch'},
 
-        items: []
+        items: [
+            {ntype: 'component', vdom:{style:{backgroundColor: 'black'}}},
+            {ntype: 'component', vdom:{style:{backgroundColor: 'red'}}},
+            {ntype: 'component', vdom:{style:{backgroundColor: 'yellow'}}}
+        ]
     }}
 }
 
