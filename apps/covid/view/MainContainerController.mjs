@@ -1,5 +1,6 @@
 import {default as ComponentController} from '../../../node_modules/neo.mjs/src/controller/Component.mjs';
 import NeoArray                         from '../../../node_modules/neo.mjs/src/util/Array.mjs';
+import Util                             from '../Util.mjs';
 
 /**
  * @class Covid.view.MainContainerController
@@ -18,8 +19,44 @@ class MainContainerController extends ComponentController {
         apiSummaryUrl: 'https://corona.lmao.ninja/v2/all'
     }}
 
+    onConstructed() {
+        super.onConstructed();
+        this.loadSummaryData();
+    }
+
+    /**
+     *
+     * @param {Object} data
+     * @param {Number} data.active
+     * @param {Number} data.cases
+     * @param {Number} data.deaths
+     * @param {Number} data.recovered
+     * @param {Number} data.updated // timestamp
+     */
     applySummaryData(data) {
-        console.log('applySummaryData', data);
+        let me        = this,
+            container = me.getReference('total-stats'),
+            vdom      = container.vdom;
+
+        me.summaryData = data;
+
+        vdom.cn[0].cn[1].html = Util.formatNumber({value: data.cases});
+        vdom.cn[1].cn[1].html = Util.formatNumber({value: data.active});
+        vdom.cn[2].cn[1].html = Util.formatNumber({value: data.recovered});
+        vdom.cn[3].cn[1].html = Util.formatNumber({value: data.deaths});
+
+        container.vdom = vdom;
+
+        container = me.getReference('last-update');
+        vdom      = container.vdom;
+
+        vdom.html = 'Last Update: ' + new Intl.DateTimeFormat('default', {
+            hour  : 'numeric',
+            minute: 'numeric',
+            second: 'numeric'
+        }).format(new Date(data.updated));
+
+        container.vdom = vdom;
     }
 
     /**
