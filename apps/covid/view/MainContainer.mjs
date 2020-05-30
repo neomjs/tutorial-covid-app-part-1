@@ -1,4 +1,5 @@
-import Viewport from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
+import HeaderContainer from './HeaderContainer.mjs';
+import Viewport        from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
 
 /**
  * @class Covid.view.MainContainer
@@ -13,9 +14,9 @@ class MainContainer extends Viewport {
         layout   : {ntype: 'vbox', align: 'stretch'},
 
         items: [
-            {ntype: 'component', vdom: {innerHTML: 'Header'}},
-            {ntype: 'component', vdom: {innerHTML: 'Center'}},
-            {ntype: 'component', vdom: {innerHTML: 'Footer'}}
+            {module: HeaderContainer, height: 120},
+            {ntype : 'component',     vdom  : {innerHTML: 'Center'}},
+            {ntype : 'component',     vdom  : {innerHTML: 'Footer'}}
         ]
     }}
 }
