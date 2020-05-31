@@ -362,7 +362,7 @@
     {
         "className": null,
         "collapsed": false,
-        "id": 192,
+        "id": 193,
         "isLeaf": false,
         "name": "view",
         "path": "",
@@ -1240,6 +1240,17 @@
         "srcPath": "tutorial-covid-app-part-1/docs/app/view/HeaderContainer.mjs"
     },
     {
+        "className": "Covid.view.HeaderContainer",
+        "collapsed": false,
+        "id": 194,
+        "isLeaf": true,
+        "name": "HeaderContainer",
+        "path": ".view",
+        "parentId": 193,
+        "singleton": false,
+        "srcPath": "tutorial-covid-app-part-1/apps/covid/view/HeaderContainer.mjs"
+    },
+    {
         "className": "Neo.component.Helix",
         "collapsed": false,
         "id": 15,
@@ -1418,11 +1429,11 @@
     {
         "className": "Covid.view.MainContainer",
         "collapsed": false,
-        "id": 193,
+        "id": 195,
         "isLeaf": true,
         "name": "MainContainer",
         "path": ".view",
-        "parentId": 192,
+        "parentId": 193,
         "singleton": false,
         "srcPath": "tutorial-covid-app-part-1/apps/covid/view/MainContainer.mjs"
     },
@@ -1447,6 +1458,17 @@
         "parentId": 175,
         "singleton": false,
         "srcPath": "tutorial-covid-app-part-1/docs/app/view/MainContainerController.mjs"
+    },
+    {
+        "className": "Covid.view.MainContainerController",
+        "collapsed": false,
+        "id": 196,
+        "isLeaf": true,
+        "name": "MainContainerController",
+        "path": ".view",
+        "parentId": 193,
+        "singleton": false,
+        "srcPath": "tutorial-covid-app-part-1/apps/covid/view/MainContainerController.mjs"
     },
     {
         "className": "Neo.worker.Manager",
@@ -1997,6 +2019,17 @@
         "parentId": 30,
         "singleton": false,
         "srcPath": "node_modules/neo.mjs/src/core/Util.mjs"
+    },
+    {
+        "className": "Covid.Util",
+        "collapsed": false,
+        "id": 192,
+        "isLeaf": true,
+        "name": "Util",
+        "path": "",
+        "parentId": 191,
+        "singleton": false,
+        "srcPath": "tutorial-covid-app-part-1/apps/covid/Util.mjs"
     },
     {
         "className": "Neo.layout.VBox",

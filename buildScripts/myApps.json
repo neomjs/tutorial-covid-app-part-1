@@ -15,13 +15,14 @@
     "apps": {
         "Docs": {
             "input": "buildScripts/entrypoints/Docs.mjs",
-            "mainThreadAddons": "'GoogleAnalytics', 'HighlightJS', 'Stylesheet'",
+            "mainThreadAddons": "'HighlightJS', 'Stylesheet'",
             "output": "/docs/",
             "title": "Neo Docs"
         },
         "Covid": {
             "input": "buildScripts/entrypoints/Covid.mjs",
             "output": "/apps/covid/",
+            "themes": "'neo-theme-dark', 'neo-theme-light'",
             "title": "Covid",
             "mainThreadAddons": "'AmCharts', 'MapboxGL', 'Stylesheet'"
         }

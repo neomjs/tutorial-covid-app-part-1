@@ -84997,6 +84997,270 @@
         "neoClassName": "Docs.app.view.TutorialsTreeList"
     },
     {
+        "comment": "/**\n * Static utility class\n * @class Covid.Util\n * @extends Neo.core.Base\n */",
+        "meta": {
+            "filename": "Util.mjs",
+            "lineno": 3,
+            "columnno": 0,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid",
+            "code": {}
+        },
+        "description": "Static utility class",
+        "kind": "class",
+        "name": "Util",
+        "augments": [
+            "Neo.core.Base"
+        ],
+        "memberof": "Covid",
+        "longname": "Covid.Util",
+        "scope": "static",
+        "$longname": "Covid.Util",
+        "$kind": "class",
+        "id": 2295,
+        "neoClassName": "Covid.Util"
+    },
+    {
+        "comment": "/**\n         * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString\n         * Change this config to enforce a county specific formatting (e.g. 'de-DE')\n         * @member {String} locales='default'\n         * @private\n         * @static\n         */",
+        "meta": {
+            "filename": "Util.mjs",
+            "lineno": 17,
+            "columnno": 8,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid",
+            "code": {}
+        },
+        "description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString<br />Change this config to enforce a county specific formatting (e.g. 'de-DE')",
+        "kind": "member",
+        "name": "locales",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'default'",
+        "access": "private",
+        "scope": "static",
+        "longname": "locales",
+        "$longname": "locales",
+        "$kind": "property",
+        "id": 2296,
+        "neoClassName": "Covid.Util"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.Util'\n         * @private\n         */",
+        "meta": {
+            "filename": "Util.mjs",
+            "lineno": 25,
+            "columnno": 8,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.Util'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2297,
+        "neoClassName": "Covid.Util"
+    },
+    {
+        "comment": "/**\n     * This method will get used as a grid renderer, so the 2nd param is an overload (would be {Object} record)\n     * @param {Object} data\n     * @param {Number} data.value\n     * @param {String} [color]\n     * @return {String}\n     */",
+        "meta": {
+            "range": [
+                970,
+                1278
+            ],
+            "filename": "Util.mjs",
+            "lineno": 35,
+            "columnno": 4,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid",
+            "code": {
+                "id": "astnode100074728",
+                "name": "Util.formatNumber",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data",
+                    "color"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "This method will get used as a grid renderer, so the 2nd param is an overload (would be {Object} record)",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "data.value"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "optional": true,
+                "name": "color"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                }
+            }
+        ],
+        "name": "formatNumber",
+        "longname": "Util.formatNumber",
+        "kind": "function",
+        "memberof": "Util",
+        "scope": "static",
+        "$longname": "Util.formatNumber",
+        "$kind": "method",
+        "id": 2298,
+        "neoClassName": "Covid.Util"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.HeaderContainer\n * @extends Neo.container.Base\n */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 5,
+            "columnno": 0,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "HeaderContainer",
+        "augments": [
+            "Neo.container.Base"
+        ],
+        "memberof": "Covid.view",
+        "longname": "Covid.view.HeaderContainer",
+        "scope": "static",
+        "$longname": "Covid.view.HeaderContainer",
+        "$kind": "class",
+        "id": 2299,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.HeaderContainer'\n         * @private\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 15,
+            "columnno": 8,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.HeaderContainer'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2300,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String[]} cls=['covid-header-container']\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 19,
+            "columnno": 8,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array.<String>"
+            ]
+        },
+        "defaultvalue": "['covid-header-container']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2301,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object} layout={ntype: 'hbox', align: 'stretch'}\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "layout",
+        "type": {
+            "names": [
+                "Object"
+            ]
+        },
+        "defaultvalue": "{ntype: 'hbox', align: 'stretch'}",
+        "description": "'hbox', align: 'stretch'}",
+        "longname": "layout",
+        "scope": "global",
+        "$longname": "layout",
+        "$kind": "property",
+        "id": 2302,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Array} items\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 27,
+            "columnno": 8,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "items",
+        "type": {
+            "names": [
+                "Array"
+            ]
+        },
+        "longname": "items",
+        "scope": "global",
+        "$longname": "items",
+        "$kind": "property",
+        "id": 2303,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
         "comment": "/**\n * @class Covid.view.MainContainer\n * @extends Neo.container.Viewport\n */",
         "meta": {
             "filename": "MainContainer.mjs",
@@ -85015,7 +85279,280 @@
         "scope": "static",
         "$longname": "Covid.view.MainContainer",
         "$kind": "class",
-        "id": 2295,
+        "id": 2304,
         "neoClassName": "Covid.view.MainContainer"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.MainContainerController\n * @extends Neo.controller.Component\n */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 5,
+            "columnno": 0,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "MainContainerController",
+        "augments": [
+            "Neo.controller.Component"
+        ],
+        "memberof": "Covid.view",
+        "longname": "Covid.view.MainContainerController",
+        "scope": "static",
+        "$longname": "Covid.view.MainContainerController",
+        "$kind": "class",
+        "id": 2305,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.MainContainerController'\n         * @private\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 15,
+            "columnno": 8,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.MainContainerController'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2306,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {String} apiSummaryUrl='https://corona.lmao.ninja/v2/all'\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 19,
+            "columnno": 8,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "apiSummaryUrl",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'https://corona.lmao.ninja/v2/all'",
+        "longname": "apiSummaryUrl",
+        "scope": "global",
+        "$longname": "apiSummaryUrl",
+        "$kind": "property",
+        "id": 2307,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Number} data.active\n     * @param {Number} data.cases\n     * @param {Number} data.deaths\n     * @param {Number} data.recovered\n     * @param {Number} data.updated // timestamp\n     */",
+        "meta": {
+            "range": [
+                1129,
+                1976
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 36,
+            "columnno": 4,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {
+                "id": "astnode100075134",
+                "name": "MainContainerController#applySummaryData",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "data.active"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "data.cases"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "data.deaths"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "data.recovered"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "description": "// timestamp",
+                "name": "data.updated"
+            }
+        ],
+        "name": "applySummaryData",
+        "longname": "MainContainerController#applySummaryData",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#applySummaryData",
+        "$kind": "method",
+        "id": 2308,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     */",
+        "meta": {
+            "range": [
+                2005,
+                2269
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 65,
+            "columnno": 4,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {
+                "id": "astnode100075302",
+                "name": "MainContainerController#loadSummaryData",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "name": "loadSummaryData",
+        "longname": "MainContainerController#loadSummaryData",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "MainContainerController#loadSummaryData",
+        "$kind": "method",
+        "id": 2309,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                2319,
+                2388
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 77,
+            "columnno": 4,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {
+                "id": "astnode100075350",
+                "name": "MainContainerController#onReloadDataButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onReloadDataButtonClick",
+        "longname": "MainContainerController#onReloadDataButtonClick",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#onReloadDataButtonClick",
+        "$kind": "method",
+        "id": 2310,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                2438,
+                3697
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 84,
+            "columnno": 4,
+            "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
+            "code": {
+                "id": "astnode100075360",
+                "name": "MainContainerController#onSwitchThemeButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onSwitchThemeButtonClick",
+        "longname": "MainContainerController#onSwitchThemeButtonClick",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#onSwitchThemeButtonClick",
+        "$kind": "method",
+        "id": 2311,
+        "neoClassName": "Covid.view.MainContainerController"
     }
 ]
