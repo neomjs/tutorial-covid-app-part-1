@@ -1,6 +1,6 @@
-import Button                 from '../../../node_modules/neo.mjs/src/button/Base.mjs';
-import {default as Container} from '../../../node_modules/neo.mjs/src/container/Base.mjs';
-import Label                  from '../../../node_modules/neo.mjs/src/component/Label.mjs';
+import Button    from '../../../node_modules/neo.mjs/src/button/Base.mjs';
+import Container from '../../../node_modules/neo.mjs/src/container/Base.mjs';
+import Label     from '../../../node_modules/neo.mjs/src/component/Label.mjs';
 
 /**
  * @class Covid.view.HeaderContainer
