@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.core.Observable",
             "$kind": "class",
-            "id": 673,
+            "id": 1017,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 674,
+            "id": 1018,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 675,
+            "id": 1019,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -94,22 +94,22 @@
             "scope": "global",
             "$longname": "mixin",
             "$kind": "property",
-            "id": 676,
+            "id": 1020,
             "neoClassName": "Neo.core.Observable"
         },
         {
-            "comment": "/**\n     *\n     * @param {Object|String} name\n     * @param {Object} [opts]\n     * @param {Object} [scope]\n     * @param {String} [eventId]\n     * @param {Object} [data]\n     * @param {Number} [order]\n     * @returns {String} eventId\n     */",
+            "comment": "/**\n     *\n     * @param {Object|String} name\n     * @param {Object} [opts]\n     * @param {Object} [scope]\n     * @param {String} [eventId]\n     * @param {Object} [data]\n     * @param {Number} [order]\n     * @returns {String|null} eventId null in case an object gets passed as the name (multiple ids)\n     */",
             "meta": {
                 "range": [
-                    1742,
-                    3566
+                    874,
+                    2894
                 ],
                 "filename": "Observable.mjs",
-                "lineno": 69,
+                "lineno": 36,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024247",
+                    "id": "astnode100035564",
                     "name": "Observable#addListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -185,10 +185,11 @@
                 {
                     "type": {
                         "names": [
-                            "String"
+                            "String",
+                            "null"
                         ]
                     },
-                    "description": "eventId"
+                    "description": "eventId null in case an object gets passed as the name (multiple ids)"
                 }
             ],
             "name": "addListener",
@@ -198,22 +199,22 @@
             "scope": "instance",
             "$longname": "Observable#addListener",
             "$kind": "method",
-            "id": 677,
+            "id": 1021,
             "neoClassName": "Neo.core.Observable"
         },
         {
             "comment": "/**\n     *\n     * @param name\n     */",
             "meta": {
                 "range": [
-                    3614,
-                    4145
+                    2942,
+                    3473
                 ],
                 "filename": "Observable.mjs",
-                "lineno": 127,
+                "lineno": 99,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024484",
+                    "id": "astnode100035812",
                     "name": "Observable#fire",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -236,64 +237,22 @@
             "scope": "instance",
             "$longname": "Observable#fire",
             "$kind": "method",
-            "id": 678,
-            "neoClassName": "Neo.core.Observable"
-        },
-        {
-            "comment": "/**\n     *\n     * @param name\n     * @param eventId\n     */",
-            "meta": {
-                "range": [
-                    4215,
-                    4661
-                ],
-                "filename": "Observable.mjs",
-                "lineno": 150,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/core",
-                "code": {
-                    "id": "astnode100024577",
-                    "name": "Observable#removeListener",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "name",
-                        "eventId"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "params": [
-                {
-                    "name": "name"
-                },
-                {
-                    "name": "eventId"
-                }
-            ],
-            "name": "removeListener",
-            "longname": "Observable#removeListener",
-            "kind": "function",
-            "memberof": "Observable",
-            "scope": "instance",
-            "$longname": "Observable#removeListener",
-            "$kind": "method",
-            "id": 679,
+            "id": 1022,
             "neoClassName": "Neo.core.Observable"
         },
         {
             "comment": "/**\n     * Alias for addListener\n     * @param {Object|String} name\n     * @param {Object} [opts]\n     * @param {Object} [scope]\n     * @param {String} [eventId]\n     * @param {Object} [data]\n     * @param {Number} [order]\n     * @returns {String} eventId\n     */",
             "meta": {
                 "range": [
-                    5094,
-                    5155
+                    4784,
+                    4845
                 ],
                 "filename": "Observable.mjs",
-                "lineno": 189,
+                "lineno": 164,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024633",
+                    "id": "astnode100036035",
                     "name": "Observable#on",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -378,22 +337,64 @@
             "scope": "instance",
             "$longname": "Observable#on",
             "$kind": "method",
-            "id": 680,
+            "id": 1023,
+            "neoClassName": "Neo.core.Observable"
+        },
+        {
+            "comment": "/**\n     *\n     * @param name\n     * @param eventId\n     */",
+            "meta": {
+                "range": [
+                    4915,
+                    5361
+                ],
+                "filename": "Observable.mjs",
+                "lineno": 173,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/core",
+                "code": {
+                    "id": "astnode100036048",
+                    "name": "Observable#removeListener",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "name",
+                        "eventId"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "eventId"
+                }
+            ],
+            "name": "removeListener",
+            "longname": "Observable#removeListener",
+            "kind": "function",
+            "memberof": "Observable",
+            "scope": "instance",
+            "$longname": "Observable#removeListener",
+            "$kind": "method",
+            "id": 1024,
             "neoClassName": "Neo.core.Observable"
         },
         {
             "comment": "/**\n     * Alias for removeListener\n     * @param name\n     * @param eventId\n     */",
             "meta": {
                 "range": [
-                    5250,
-                    5307
+                    5615,
+                    5672
                 ],
                 "filename": "Observable.mjs",
-                "lineno": 198,
+                "lineno": 207,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024646",
+                    "id": "astnode100036104",
                     "name": "Observable#un",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -420,7 +421,7 @@
             "scope": "instance",
             "$longname": "Observable#un",
             "$kind": "method",
-            "id": 681,
+            "id": 1025,
             "neoClassName": "Neo.core.Observable"
         }
     ]

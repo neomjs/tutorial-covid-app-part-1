@@ -4,7 +4,7 @@
             "comment": "/**\n * @class Neo.list.Base\n * @extends Neo.component.Base\n */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 8,
+                "lineno": 7,
                 "columnno": 0,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -19,14 +19,14 @@
             "scope": "static",
             "$longname": "Neo.list.Base",
             "$kind": "class",
-            "id": 1274,
+            "id": 1872,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {String} className='Neo.list.Base'\n         * @protected\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 18,
+                "lineno": 17,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -44,14 +44,14 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1275,
+            "id": 1873,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {String} ntype='list'\n         * @protected\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 23,
+                "lineno": 22,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -69,14 +69,14 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1276,
+            "id": 1874,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * True will destroy the used collection / store when the component gets destroyed\n         * @member {Boolean} autoDestroyStore=true\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 28,
+                "lineno": 27,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -94,14 +94,14 @@
             "scope": "global",
             "$longname": "autoDestroyStore",
             "$kind": "property",
-            "id": 1277,
+            "id": 1875,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {String[]} cls=['neo-list-container','neo-list']\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 32,
+                "lineno": 31,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -118,14 +118,14 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1278,
+            "id": 1876,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {Boolean} disableSelection_=false\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 36,
+                "lineno": 35,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -142,14 +142,14 @@
             "scope": "global",
             "$longname": "disableSelection_",
             "$kind": "property",
-            "id": 1279,
+            "id": 1877,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {String} displayField='name'\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 40,
+                "lineno": 39,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -166,14 +166,87 @@
             "scope": "global",
             "$longname": "displayField",
             "$kind": "property",
-            "id": 1280,
+            "id": 1878,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} draggable_=false\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 43,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "draggable_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "draggable_",
+            "scope": "global",
+            "$longname": "draggable_",
+            "$kind": "property",
+            "id": 1879,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {Neo.draggable.list.DragZone|null} dragZone=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 47,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "dragZone",
+            "type": {
+                "names": [
+                    "Neo.draggable.list.DragZone",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "dragZone",
+            "scope": "global",
+            "$longname": "dragZone",
+            "$kind": "property",
+            "id": 1880,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n         * @member {Object} dragZoneConfig=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 51,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "dragZoneConfig",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "dragZoneConfig",
+            "scope": "global",
+            "$longname": "dragZoneConfig",
+            "$kind": "property",
+            "id": 1881,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {Boolean} highlightFilterValue=true\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 44,
+                "lineno": 55,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -190,14 +263,14 @@
             "scope": "global",
             "$longname": "highlightFilterValue",
             "$kind": "property",
-            "id": 1281,
+            "id": 1882,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {String} itemCls='neo-list-item'\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 48,
+                "lineno": 59,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -214,14 +287,14 @@
             "scope": "global",
             "$longname": "itemCls",
             "$kind": "property",
-            "id": 1282,
+            "id": 1883,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * Additional used keys for the selection model\n         * @member {Object} keys\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 53,
+                "lineno": 64,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -238,14 +311,14 @@
             "scope": "global",
             "$longname": "keys",
             "$kind": "property",
-            "id": 1283,
+            "id": 1884,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * Either pass a selection.Model module, an instance or a config object\n         * @member {Object|Neo.selection.Model} selectionModel_=null\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 58,
+                "lineno": 69,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -264,14 +337,14 @@
             "scope": "global",
             "$longname": "selectionModel_",
             "$kind": "property",
-            "id": 1284,
+            "id": 1885,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * Set this to true in case a select event should only update _vdom (e.g. when used inside a form.field.Select\n         * @member {Boolean} silentSelect=false\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 63,
+                "lineno": 74,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -289,14 +362,14 @@
             "scope": "global",
             "$longname": "silentSelect",
             "$kind": "property",
-            "id": 1285,
+            "id": 1886,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {Neo.data.Store|null} store_=null\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 67,
+                "lineno": 78,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -314,14 +387,14 @@
             "scope": "global",
             "$longname": "store_",
             "$kind": "property",
-            "id": 1286,
+            "id": 1887,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * True will add a checkbox in front of each list item\n         * @member {Boolean} stacked_=true\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 72,
+                "lineno": 83,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -339,14 +412,14 @@
             "scope": "global",
             "$longname": "stacked_",
             "$kind": "property",
-            "id": 1287,
+            "id": 1888,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * @member {Object} _vdom={tag:'ul',cn:[]}\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 76,
+                "lineno": 87,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -363,22 +436,22 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1288,
+            "id": 1889,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    2572,
-                    2829
+                    2755,
+                    3012
                 ],
                 "filename": "Base.mjs",
-                "lineno": 86,
+                "lineno": 97,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037209",
+                    "id": "astnode100055403",
                     "name": "Base",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -405,22 +478,22 @@
             "scope": "global",
             "$longname": "Base",
             "$kind": "constructor",
-            "id": 1289,
+            "id": 1890,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Triggered after the disableSelection config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    3167,
-                    3352
+                    3178,
+                    3363
                 ],
                 "filename": "Base.mjs",
-                "lineno": 115,
+                "lineno": 116,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037273",
+                    "id": "astnode100055441",
                     "name": "Base#afterSetDisableSelection",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -459,22 +532,76 @@
             "scope": "instance",
             "$longname": "Base#afterSetDisableSelection",
             "$kind": "method",
-            "id": 1290,
+            "id": 1891,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the draggable config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    3522,
+                    4057
+                ],
+                "filename": "Base.mjs",
+                "lineno": 130,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100055469",
+                    "name": "Base#afterSetDraggable",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the draggable config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetDraggable",
+            "longname": "Base#afterSetDraggable",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetDraggable",
+            "$kind": "method",
+            "id": 1892,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Triggered after the selectionModel config got changed\n     * @param {Neo.selection.Model} value\n     * @param {Neo.selection.Model} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    3540,
-                    3660
+                    4245,
+                    4365
                 ],
                 "filename": "Base.mjs",
-                "lineno": 129,
+                "lineno": 154,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037301",
+                    "id": "astnode100055521",
                     "name": "Base#afterSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -513,22 +640,22 @@
             "scope": "instance",
             "$longname": "Base#afterSetSelectionModel",
             "$kind": "method",
-            "id": 1291,
+            "id": 1893,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Triggered after the store config got changed\n     * @param {Neo.data.Store} value\n     * @param {Neo.data.Store} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    3829,
-                    4159
+                    4534,
+                    4864
                 ],
                 "filename": "Base.mjs",
-                "lineno": 141,
+                "lineno": 166,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037318",
+                    "id": "astnode100055538",
                     "name": "Base#afterSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -567,22 +694,76 @@
             "scope": "instance",
             "$longname": "Base#afterSetStore",
             "$kind": "method",
-            "id": 1292,
+            "id": 1894,
+            "neoClassName": "Neo.list.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the useCheckBoxes config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    5027,
+                    5217
+                ],
+                "filename": "Base.mjs",
+                "lineno": 188,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
+                "code": {
+                    "id": "astnode100055580",
+                    "name": "Base#afterSetUseCheckBoxes",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the useCheckBoxes config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetUseCheckBoxes",
+            "longname": "Base#afterSetUseCheckBoxes",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetUseCheckBoxes",
+            "$kind": "method",
+            "id": 1895,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Triggered before the selectionModel config gets changed.\n     * @param {Neo.selection.Model} value\n     * @param {Neo.selection.Model} oldValue\n     * @returns {Neo.selection.Model}\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    4388,
-                    4571
+                    5446,
+                    5629
                 ],
                 "filename": "Base.mjs",
-                "lineno": 164,
+                "lineno": 203,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037360",
+                    "id": "astnode100055611",
                     "name": "Base#beforeSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -630,22 +811,22 @@
             "scope": "instance",
             "$longname": "Base#beforeSetSelectionModel",
             "$kind": "method",
-            "id": 1293,
+            "id": 1896,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Triggered before the store config gets changed.\n     * @param {Object|Neo.data.Store} value\n     * @param {Object|Neo.data.Store} oldValue\n     * @returns {Neo.data.Store}\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    4790,
-                    4953
+                    5848,
+                    6011
                 ],
                 "filename": "Base.mjs",
-                "lineno": 179,
+                "lineno": 218,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037381",
+                    "id": "astnode100055632",
                     "name": "Base#beforeSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -695,76 +876,22 @@
             "scope": "instance",
             "$longname": "Base#beforeSetStore",
             "$kind": "method",
-            "id": 1294,
-            "neoClassName": "Neo.list.Base"
-        },
-        {
-            "comment": "/**\n     * Triggered after the useCheckBoxes config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    5116,
-                    5306
-                ],
-                "filename": "Base.mjs",
-                "lineno": 193,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
-                "code": {
-                    "id": "astnode100037401",
-                    "name": "Base#afterSetUseCheckBoxes",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the useCheckBoxes config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetUseCheckBoxes",
-            "longname": "Base#afterSetUseCheckBoxes",
-            "kind": "function",
-            "memberof": "Base",
-            "scope": "instance",
-            "$longname": "Base#afterSetUseCheckBoxes",
-            "$kind": "method",
-            "id": 1295,
+            "id": 1897,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Override this method for custom list items\n     * @param {Object} record\n     * @returns {Object} The list item object\n     */",
             "meta": {
                 "range": [
-                    5454,
-                    5857
+                    6159,
+                    6562
                 ],
                 "filename": "Base.mjs",
-                "lineno": 206,
+                "lineno": 231,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037432",
+                    "id": "astnode100055652",
                     "name": "Base#createItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -803,22 +930,22 @@
             "scope": "instance",
             "$longname": "Base#createItem",
             "$kind": "method",
-            "id": 1296,
+            "id": 1898,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Override this method for custom renderers\n     * @param {Object} record\n     * @returns {Object[]|String} Either an vdom cn array or a html string\n     */",
             "meta": {
                 "range": [
-                    6033,
-                    6588
+                    6738,
+                    7293
                 ],
                 "filename": "Base.mjs",
-                "lineno": 227,
+                "lineno": 252,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037487",
+                    "id": "astnode100055707",
                     "name": "Base#createItemContent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -858,22 +985,22 @@
             "scope": "instance",
             "$longname": "Base#createItemContent",
             "$kind": "method",
-            "id": 1297,
+            "id": 1899,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    6649,
-                    7051
+                    7354,
+                    7747
                 ],
                 "filename": "Base.mjs",
-                "lineno": 248,
+                "lineno": 273,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037561",
+                    "id": "astnode100055781",
                     "name": "Base#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -903,22 +1030,22 @@
             "scope": "instance",
             "$longname": "Base#createItems",
             "$kind": "method",
-            "id": 1298,
+            "id": 1900,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    7080,
-                    7321
+                    7776,
+                    8017
                 ],
                 "filename": "Base.mjs",
-                "lineno": 270,
+                "lineno": 295,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037634",
+                    "id": "astnode100055853",
                     "name": "Base#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -935,22 +1062,22 @@
             "params": [],
             "$longname": "Base#destroy",
             "$kind": "method",
-            "id": 1299,
+            "id": 1901,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Calls focus() on the top level DOM node of this component or on a given node via id\n     * @param {String} [id]\n     */",
             "meta": {
                 "range": [
-                    7462,
-                    7707
+                    8158,
+                    8403
                 ],
                 "filename": "Base.mjs",
-                "lineno": 288,
+                "lineno": 313,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037675",
+                    "id": "astnode100055894",
                     "name": "Base#focus",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -980,22 +1107,22 @@
             "scope": "instance",
             "$longname": "Base#focus",
             "$kind": "method",
-            "id": 1300,
+            "id": 1902,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     * @param {Number|String} id\n     * @returns {String}\n     */",
             "meta": {
                 "range": [
-                    7794,
-                    7851
+                    8490,
+                    8547
                 ],
                 "filename": "Base.mjs",
-                "lineno": 305,
+                "lineno": 330,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037707",
+                    "id": "astnode100055926",
                     "name": "Base#getItemId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1033,22 +1160,22 @@
             "scope": "instance",
             "$longname": "Base#getItemId",
             "$kind": "method",
-            "id": 1301,
+            "id": 1903,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     * @param {String} vnodeId\n     * @returns {String|Number} itemId\n     */",
             "meta": {
                 "range": [
-                    7950,
-                    8279
+                    8646,
+                    9022
                 ],
                 "filename": "Base.mjs",
-                "lineno": 314,
+                "lineno": 339,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037720",
+                    "id": "astnode100055939",
                     "name": "Base#getItemRecordId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1087,22 +1214,22 @@
             "scope": "instance",
             "$longname": "Base#getItemRecordId",
             "$kind": "method",
-            "id": 1302,
+            "id": 1904,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Support collections & stores\n     * @returns {String}\n     */",
             "meta": {
                 "range": [
-                    8362,
-                    8457
+                    9105,
+                    9200
                 ],
                 "filename": "Base.mjs",
-                "lineno": 330,
+                "lineno": 355,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037773",
+                    "id": "astnode100056001",
                     "name": "Base#getKeyProperty",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1129,22 +1256,22 @@
             "params": [],
             "$longname": "Base#getKeyProperty",
             "$kind": "method",
-            "id": 1303,
+            "id": 1905,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    8514,
-                    8744
+                    9257,
+                    9487
                 ],
                 "filename": "Base.mjs",
-                "lineno": 338,
+                "lineno": 363,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037791",
+                    "id": "astnode100056019",
                     "name": "Base#onClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1172,22 +1299,22 @@
             "scope": "instance",
             "$longname": "Base#onClick",
             "$kind": "method",
-            "id": 1304,
+            "id": 1906,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    8801,
-                    9250
+                    9716,
+                    10165
                 ],
                 "filename": "Base.mjs",
-                "lineno": 352,
+                "lineno": 387,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037840",
+                    "id": "astnode100056094",
                     "name": "Base#onContainerClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1215,14 +1342,14 @@
             "scope": "instance",
             "$longname": "Base#onContainerClick",
             "$kind": "method",
-            "id": 1305,
+            "id": 1907,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * The containerClick event fires when a click occurs on the component, but not on a list item\n         * @event containerClick\n         * @param {String[]} cls the classList of the target node (converted to an array)\n         * @param {String} id the target dom id\n         * @param {String[]} path the event path\n         * @returns {Object}\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 353,
+                "lineno": 388,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -1272,22 +1399,22 @@
             "scope": "global",
             "$longname": "event:containerClick",
             "$kind": "event",
-            "id": 1306,
+            "id": 1908,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    9307,
-                    9801
+                    10222,
+                    10716
                 ],
                 "filename": "Base.mjs",
-                "lineno": 368,
+                "lineno": 403,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037852",
+                    "id": "astnode100056106",
                     "name": "Base#onItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1315,14 +1442,14 @@
             "scope": "instance",
             "$longname": "Base#onItemClick",
             "$kind": "method",
-            "id": 1307,
+            "id": 1909,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n         * The itemClick event fires when a click occurs on a list item\n         * @event itemClick\n         * @param {String} id the record matching the list item\n         * @returns {Object}\n         */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 376,
+                "lineno": 411,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {}
@@ -1354,22 +1481,22 @@
             "scope": "global",
             "$longname": "event:itemClick",
             "$kind": "event",
-            "id": 1308,
+            "id": 1910,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    9830,
-                    9881
+                    10745,
+                    10796
                 ],
                 "filename": "Base.mjs",
-                "lineno": 388,
+                "lineno": 423,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037905",
+                    "id": "astnode100056159",
                     "name": "Base#onStoreFilter",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1386,22 +1513,22 @@
             "params": [],
             "$longname": "Base#onStoreFilter",
             "$kind": "method",
-            "id": 1309,
+            "id": 1911,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    9910,
-                    10209
+                    10825,
+                    11124
                 ],
                 "filename": "Base.mjs",
-                "lineno": 395,
+                "lineno": 430,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037914",
+                    "id": "astnode100056168",
                     "name": "Base#onStoreLoad",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1418,22 +1545,22 @@
             "params": [],
             "$longname": "Base#onStoreLoad",
             "$kind": "method",
-            "id": 1310,
+            "id": 1912,
             "neoClassName": "Neo.list.Base"
         },
         {
             "comment": "/**\n     * Convenience shortcut\n     * @param {Number} index\n     */",
             "meta": {
                 "range": [
-                    10288,
-                    10451
+                    11203,
+                    11366
                 ],
                 "filename": "Base.mjs",
-                "lineno": 412,
+                "lineno": 447,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100037960",
+                    "id": "astnode100056214",
                     "name": "Base#selectItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1462,7 +1589,7 @@
             "scope": "instance",
             "$longname": "Base#selectItem",
             "$kind": "method",
-            "id": 1311,
+            "id": 1913,
             "neoClassName": "Neo.list.Base"
         }
     ]

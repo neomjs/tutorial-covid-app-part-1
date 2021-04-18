@@ -1,14 +1,14 @@
-import ApiTreeList                        from './ApiTreeList.mjs';
-import {default as ClassDetailsContainer} from './classdetails/MainContainer.mjs';
-import {default as Collection}            from '../../../node_modules/neo.mjs/src/collection/Base.mjs';
-import ContentTabContainer                from './ContentTabContainer.mjs';
-import ExamplesTreeList                   from './ExamplesTreeList.mjs';
-import HeaderContainer                    from './HeaderContainer.mjs';
-import MainContainerController            from './MainContainerController.mjs';
-import SourceViewComponent                from './classdetails/SourceViewComponent.mjs';
-import TutorialComponent                  from './classdetails/TutorialComponent.mjs';
-import TutorialsTreeList                  from './TutorialsTreeList.mjs';
-import Viewport                           from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
+import ApiTreeList             from './ApiTreeList.mjs';
+import ClassDetailsContainer   from './classdetails/MainContainer.mjs';
+import Collection              from '../../../node_modules/neo.mjs/src/collection/Base.mjs';
+import ContentTabContainer     from './ContentTabContainer.mjs';
+import ExamplesTreeList        from './ExamplesTreeList.mjs';
+import HeaderContainer         from './HeaderContainer.mjs';
+import MainContainerController from './MainContainerController.mjs';
+import SourceViewComponent     from './classdetails/SourceViewComponent.mjs';
+import TutorialComponent       from './classdetails/TutorialComponent.mjs';
+import TutorialsTreeList       from './TutorialsTreeList.mjs';
+import Viewport                from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
 
 /**
  * @class Docs.app.view.MainContainer
@@ -18,12 +18,12 @@ class MainContainer extends Viewport {
     static getConfig() {return {
         /**
          * @member {String} className='Docs.app.view.MainContainer'
-         * @private
+         * @protected
          */
         className: 'Docs.app.view.MainContainer',
         /**
          * @member {String} ntype='main-container'
-         * @private
+         * @protected
          */
         ntype: 'main-container',
         /**
@@ -58,6 +58,7 @@ class MainContainer extends Viewport {
                 ntype   : 'tab-container',
                 cls     : ['neo-docs-navigation-tab-container', 'neo-tab-container'],
                 minWidth: 290,
+                sortable: true,
                 width   : 290,
 
                 items: [{
@@ -112,7 +113,7 @@ class MainContainer extends Viewport {
         }
 
         // Disable the examples Tab for dist versions until the webpack builds can handle this (see: #140)
-        me.items[1].items[0].items[2].tabButtonConfig.disabled = !Neo.config.isExperimental;
+        me.items[1].items[0].items[2].tabButtonConfig.disabled = Neo.config.environment !== 'development';
     }
 
     /**

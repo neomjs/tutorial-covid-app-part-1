@@ -9,19 +9,19 @@ class MainContainerController extends Component {
     static getConfig() {return {
         /**
          * @member {String} className='Docs.app.view.MainContainerController'
-         * @private
+         * @protected
          */
         className: 'Docs.app.view.MainContainerController',
         /**
          * @member {String} ntype='docs-maincontainer-controller'
-         * @private
+         * @protected
          */
         ntype: 'docs-maincontainer-controller'
     }}
 
     /**
      *
-     * @param record
+     * @param {Object} record
      */
     onApiListLeafClick(record) {
         let me                  = this,
@@ -41,7 +41,7 @@ class MainContainerController extends Component {
 
     /**
      *
-     * @param record
+     * @param {Object} record
      */
     onExamplesListLeafClick(record) {
         let me                  = this,
@@ -69,7 +69,7 @@ class MainContainerController extends Component {
                 /* webpackIgnore: true */
                 record.path).then((module) => {
                     contentTabContainer.add({
-                        ntype          : module.default.prototype.ntype,
+                        module         : module.default,
                         id             : name,
                         tabButtonConfig: tabButtonConfig
                     });
@@ -85,7 +85,7 @@ class MainContainerController extends Component {
 
                 modules.forEach(module => {
                     items.push({
-                        ntype: module.default.prototype.ntype
+                        module: module.default
                     });
                 });
 
@@ -107,18 +107,19 @@ class MainContainerController extends Component {
      */
     onHashChange(value, oldValue) {
         let me                  = this,
+            hash                = value && value.hash,
             contentTabContainer = me.getReference('content-tabcontainer'),
             structureStore      = me.getReference('api-treelist').store,
             record, tab;
 
-        if (value.hasOwnProperty('viewSource')) {
-            record = structureStore.find('className', value.viewSource)[0];
+        if (hash && hash.hasOwnProperty('viewSource')) {
+            record = structureStore.find('className', hash.viewSource)[0];
 
             if (record) {
                 tab = contentTabContainer.add({
                     ntype        : 'classdetails-sourceviewcomponent',
-                    id           : value.viewSource + '__source',
-                    line         : value.line,
+                    id           : hash.viewSource + '__source',
+                    line         : hash.line,
                     structureData: record,
 
                     tabButtonConfig: {
@@ -128,7 +129,7 @@ class MainContainerController extends Component {
                 });
 
                 // adjust the highlighted line for already added source view tabs
-                tab.line = value.line;
+                tab.line = hash.line;
             }
         }
     }
@@ -181,15 +182,15 @@ class MainContainerController extends Component {
 
         if (button.text === 'Theme Light') {
             buttonText = 'Theme Dark';
-            href       = '../dist/development/neo-theme-light-no-css4.css';
+            href       = '../dist/development/neo-theme-light-no-css-vars.css';
             theme      = 'neo-theme-light';
         } else {
             buttonText = 'Theme Light';
-            href       = '../dist/development/neo-theme-dark-no-css4.css';
+            href       = '../dist/development/neo-theme-dark-no-css-vars.css';
             theme      = 'neo-theme-dark';
         }
 
-        if (Neo.config.useCss4) {
+        if (Neo.config.useCssVars) {
             cls = [...view.cls];
 
             view.cls.forEach((item, index) => {

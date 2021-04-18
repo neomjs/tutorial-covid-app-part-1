@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.table.header.Toolbar",
             "$kind": "class",
-            "id": 1934,
+            "id": 2726,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1935,
+            "id": 2727,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1936,
+            "id": 2728,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1937,
+            "id": 2729,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 1938,
+            "id": 2730,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -142,14 +142,38 @@
             "scope": "global",
             "$longname": "itemDefaults",
             "$kind": "property",
-            "id": 1939,
+            "id": 2731,
+            "neoClassName": "Neo.table.header.Toolbar"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} showHeaderFilters_=false\n         */",
+            "meta": {
+                "filename": "Toolbar.mjs",
+                "lineno": 36,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "showHeaderFilters_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "showHeaderFilters_",
+            "scope": "global",
+            "$longname": "showHeaderFilters_",
+            "$kind": "property",
+            "id": 2732,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
             "comment": "/**\n         * @member {Object} _vdom={tag: 'thead',cn : [{tag: 'tr',cn : []}]}\n         */",
             "meta": {
                 "filename": "Toolbar.mjs",
-                "lineno": 36,
+                "lineno": 40,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
                 "code": {}
@@ -167,22 +191,108 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1940,
+            "id": 2733,
+            "neoClassName": "Neo.table.header.Toolbar"
+        },
+        {
+            "comment": "/**\n     * Triggered after the showHeaderFilters config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    1410,
+                    1751
+                ],
+                "filename": "Toolbar.mjs",
+                "lineno": 55,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
+                "code": {
+                    "id": "astnode100086972",
+                    "name": "Toolbar#afterSetShowHeaderFilters",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the showHeaderFilters config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetShowHeaderFilters",
+            "longname": "Toolbar#afterSetShowHeaderFilters",
+            "kind": "function",
+            "memberof": "Toolbar",
+            "scope": "instance",
+            "$longname": "Toolbar#afterSetShowHeaderFilters",
+            "$kind": "method",
+            "id": 2734,
+            "neoClassName": "Neo.table.header.Toolbar"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    1780,
+                    3268
+                ],
+                "filename": "Toolbar.mjs",
+                "lineno": 73,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
+                "code": {
+                    "id": "astnode100087016",
+                    "name": "Toolbar#createItems",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "createItems",
+            "longname": "Toolbar#createItems",
+            "kind": "function",
+            "memberof": "Toolbar",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Toolbar#createItems",
+            "$kind": "method",
+            "id": 2735,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
             "comment": "/**\n     *\n     * @param {String} dock\n     * @returns {String} layoutConfig\n     * @override\n     */",
             "meta": {
                 "range": [
-                    1255,
-                    1307
+                    3380,
+                    3432
                 ],
                 "filename": "Toolbar.mjs",
-                "lineno": 51,
+                "lineno": 131,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100061386",
+                    "id": "astnode100087226",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -221,22 +331,22 @@
             "scope": "instance",
             "$longname": "Toolbar#getLayoutConfig",
             "$kind": "method",
-            "id": 1941,
+            "id": 2736,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
             "comment": "/**\n     * Specify a different vdom items root if needed (useful in case this container uses a wrapper node).\n     * @returns {Object} The new vdom items root\n     */",
             "meta": {
                 "range": [
-                    1484,
-                    1545
+                    3609,
+                    3670
                 ],
                 "filename": "Toolbar.mjs",
-                "lineno": 59,
+                "lineno": 139,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100061393",
+                    "id": "astnode100087233",
                     "name": "Toolbar#getVdomItemsRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -264,22 +374,22 @@
             "params": [],
             "$longname": "Toolbar#getVdomItemsRoot",
             "$kind": "method",
-            "id": 1942,
+            "id": 2737,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
             "comment": "/**\n     * Specify a different vdom root if needed to apply the top level style attributes on a different level.\n     * Make sure to use getVnodeRoot() as well, to keep the vdom & vnode trees in sync.\n     * @returns {Object} The new vdom root\n     */",
             "meta": {
                 "range": [
-                    1807,
-                    1860
+                    3932,
+                    3985
                 ],
                 "filename": "Toolbar.mjs",
-                "lineno": 68,
+                "lineno": 148,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100061407",
+                    "id": "astnode100087247",
                     "name": "Toolbar#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -307,22 +417,22 @@
             "params": [],
             "$longname": "Toolbar#getVdomRoot",
             "$kind": "method",
-            "id": 1943,
+            "id": 2738,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
             "comment": "/**\n     * Specify a different vnode root if needed to apply the top level style attributes on a different level.\n     * Make sure to use getVdomRoot() as well, to keep the vdom & vnode trees in sync.\n     * @returns {Object} The new vnode root\n     */",
             "meta": {
                 "range": [
-                    2123,
-                    2186
+                    4248,
+                    4311
                 ],
                 "filename": "Toolbar.mjs",
-                "lineno": 77,
+                "lineno": 157,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100061419",
+                    "id": "astnode100087259",
                     "name": "Toolbar#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -350,39 +460,7 @@
             "params": [],
             "$longname": "Toolbar#getVnodeRoot",
             "$kind": "method",
-            "id": 1944,
-            "neoClassName": "Neo.table.header.Toolbar"
-        },
-        {
-            "comment": "/**\n     *\n     */",
-            "meta": {
-                "range": [
-                    2215,
-                    3648
-                ],
-                "filename": "Toolbar.mjs",
-                "lineno": 84,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/table/header",
-                "code": {
-                    "id": "astnode100061431",
-                    "name": "Toolbar#createItems",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "name": "createItems",
-            "longname": "Toolbar#createItems",
-            "kind": "function",
-            "memberof": "Toolbar",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Toolbar#createItems",
-            "$kind": "method",
-            "id": 1945,
+            "id": 2739,
             "neoClassName": "Neo.table.header.Toolbar"
         }
     ]

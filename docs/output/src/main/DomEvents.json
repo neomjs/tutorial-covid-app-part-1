@@ -4,7 +4,7 @@
             "comment": "/**\n * @class Neo.main.DomEvents\n * @extends Neo.core.Base\n * @singleton\n */",
             "meta": {
                 "filename": "DomEvents.mjs",
-                "lineno": 50,
+                "lineno": 64,
                 "columnno": 0,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {}
@@ -26,14 +26,14 @@
             "scope": "static",
             "$longname": "Neo.main.DomEvents",
             "$kind": "class",
-            "id": 1501,
+            "id": 2143,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n         * True automatically applies the core/Observable.mjs mixin\n         * @member {Boolean} observable=true\n         * @static\n         */",
             "meta": {
                 "filename": "DomEvents.mjs",
-                "lineno": 62,
+                "lineno": 76,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {}
@@ -51,14 +51,14 @@
             "longname": "observable",
             "$longname": "observable",
             "$kind": "property",
-            "id": 1502,
+            "id": 2144,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n         * @member {String} className='Neo.main.DomEvents'\n         * @protected\n         */",
             "meta": {
                 "filename": "DomEvents.mjs",
-                "lineno": 70,
+                "lineno": 84,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {}
@@ -76,14 +76,14 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1503,
+            "id": 2145,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n         * todo: conditional dynamic import once the build processes can handle it\n         * @member {Array} mixins=[TouchDomEvents]\n         */",
             "meta": {
                 "filename": "DomEvents.mjs",
-                "lineno": 75,
+                "lineno": 89,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {}
@@ -101,14 +101,14 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 1504,
+            "id": 2146,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n         * @member {boolean} singleton=true\n         * @protected\n         */",
             "meta": {
                 "filename": "DomEvents.mjs",
-                "lineno": 80,
+                "lineno": 94,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {}
@@ -126,14 +126,14 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1505,
+            "id": 2147,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n         * Remote method access for other workers\n         * @member {Object} remote={app: ['addDomListener']}\n         * @protected\n         */",
             "meta": {
                 "filename": "DomEvents.mjs",
-                "lineno": 86,
+                "lineno": 100,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {}
@@ -152,22 +152,22 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1506,
+            "id": 2148,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    2951,
-                    3335
+                    3382,
+                    3766
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 98,
+                "lineno": 112,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044889",
+                    "id": "astnode100064416",
                     "name": "DomEvents",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -194,22 +194,22 @@
             "scope": "global",
             "$longname": "DomEvents",
             "$kind": "constructor",
-            "id": 1507,
+            "id": 2149,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    3392,
-                    4209
+                    3823,
+                    4640
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 115,
+                "lineno": 129,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044948",
+                    "id": "astnode100064475",
                     "name": "DomEvents#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -237,22 +237,22 @@
             "scope": "instance",
             "$longname": "DomEvents#addDomListener",
             "$kind": "method",
-            "id": 1508,
+            "id": 2150,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    4238,
-                    4505
+                    4669,
+                    4936
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 150,
+                "lineno": 164,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045076",
+                    "id": "astnode100064603",
                     "name": "DomEvents#addGlobalDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -269,22 +269,106 @@
             "params": [],
             "$longname": "DomEvents#addGlobalDomListeners",
             "$kind": "method",
-            "id": 1509,
+            "id": 2151,
+            "neoClassName": "Neo.main.DomEvents"
+        },
+        {
+            "comment": "/**\n     * Returns the distance between two points\n     * @param  {Number} x1 The X position of the first point\n     * @param  {Number} y1 The Y position of the first point\n     * @param  {Number} x2 The X position of the second point\n     * @param  {Number} y2 The Y position of the second point\n     * @returns {Number}\n     */",
+            "meta": {
+                "range": [
+                    5276,
+                    5370
+                ],
+                "filename": "DomEvents.mjs",
+                "lineno": 180,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100064654",
+                    "name": "DomEvents#getDistance",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "x1",
+                        "y1",
+                        "x2",
+                        "y2"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns the distance between two points",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "description": "The X position of the first point",
+                    "name": "x1"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "description": "The Y position of the first point",
+                    "name": "y1"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "description": "The X position of the second point",
+                    "name": "x2"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "description": "The Y position of the second point",
+                    "name": "y2"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    }
+                }
+            ],
+            "name": "getDistance",
+            "longname": "DomEvents#getDistance",
+            "kind": "function",
+            "memberof": "DomEvents",
+            "scope": "instance",
+            "$longname": "DomEvents#getDistance",
+            "$kind": "method",
+            "id": 2152,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     * Local domEvent listener\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    4587,
-                    6549
+                    5452,
+                    7466
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 162,
+                "lineno": 188,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045127",
+                    "id": "astnode100064678",
                     "name": "DomEvents#domEventListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -313,22 +397,230 @@
             "scope": "instance",
             "$longname": "DomEvents#domEventListener",
             "$kind": "method",
-            "id": 1510,
+            "id": 2153,
+            "neoClassName": "Neo.main.DomEvents"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} event\n     * @returns {Object}\n     */",
+            "meta": {
+                "range": [
+                    7549,
+                    7880
+                ],
+                "filename": "DomEvents.mjs",
+                "lineno": 252,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100064864",
+                    "name": "DomEvents#getEventData",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "event"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "event"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "getEventData",
+            "longname": "DomEvents#getEventData",
+            "kind": "function",
+            "memberof": "DomEvents",
+            "scope": "instance",
+            "$longname": "DomEvents#getEventData",
+            "$kind": "method",
+            "id": 2154,
+            "neoClassName": "Neo.main.DomEvents"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} event\n     * @returns {Object}\n     */",
+            "meta": {
+                "range": [
+                    7963,
+                    8357
+                ],
+                "filename": "DomEvents.mjs",
+                "lineno": 268,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100064910",
+                    "name": "DomEvents#getKeyboardEventData",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "event"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "event"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "getKeyboardEventData",
+            "longname": "DomEvents#getKeyboardEventData",
+            "kind": "function",
+            "memberof": "DomEvents",
+            "scope": "instance",
+            "$longname": "DomEvents#getKeyboardEventData",
+            "$kind": "method",
+            "id": 2155,
+            "neoClassName": "Neo.main.DomEvents"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} event\n     * @returns {Object}\n     */",
+            "meta": {
+                "range": [
+                    8440,
+                    9037
+                ],
+                "filename": "DomEvents.mjs",
+                "lineno": 288,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100064955",
+                    "name": "DomEvents#getMouseEventData",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "event"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "event"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "getMouseEventData",
+            "longname": "DomEvents#getMouseEventData",
+            "kind": "function",
+            "memberof": "DomEvents",
+            "scope": "instance",
+            "$longname": "DomEvents#getMouseEventData",
+            "$kind": "method",
+            "id": 2156,
+            "neoClassName": "Neo.main.DomEvents"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Element} element\n     * @returns {Element[]}\n     */",
+            "meta": {
+                "range": [
+                    9126,
+                    9421
+                ],
+                "filename": "DomEvents.mjs",
+                "lineno": 313,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100065020",
+                    "name": "DomEvents#getPathFromElement",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "element"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Element"
+                        ]
+                    },
+                    "name": "element"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Array.<Element>"
+                        ]
+                    }
+                }
+            ],
+            "name": "getPathFromElement",
+            "longname": "DomEvents#getPathFromElement",
+            "kind": "function",
+            "memberof": "DomEvents",
+            "scope": "instance",
+            "$longname": "DomEvents#getPathFromElement",
+            "$kind": "method",
+            "id": 2157,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} node\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    7981,
-                    9351
+                    9503,
+                    11326
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 269,
+                "lineno": 333,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045464",
+                    "id": "astnode100065059",
                     "name": "DomEvents#getTargetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -365,22 +657,75 @@
             "scope": "instance",
             "$longname": "DomEvents#getTargetData",
             "$kind": "method",
-            "id": 1511,
+            "id": 2158,
+            "neoClassName": "Neo.main.DomEvents"
+        },
+        {
+            "comment": "/**\n     * Returns the first touch event found in touches or changedTouches of a TouchEvent\n     * @param {TouchEvent} event\n     * @returns {Touch}\n     */",
+            "meta": {
+                "range": [
+                    11493,
+                    11652
+                ],
+                "filename": "DomEvents.mjs",
+                "lineno": 386,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100065250",
+                    "name": "DomEvents#getTouchCoords",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "event"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns the first touch event found in touches or changedTouches of a TouchEvent",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "TouchEvent"
+                        ]
+                    },
+                    "name": "event"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Touch"
+                        ]
+                    }
+                }
+            ],
+            "name": "getTouchCoords",
+            "longname": "DomEvents#getTouchCoords",
+            "kind": "function",
+            "memberof": "DomEvents",
+            "scope": "instance",
+            "$longname": "DomEvents#getTouchCoords",
+            "$kind": "method",
+            "id": 2159,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     * Only in use if Neo.config.useSharedWorkers = true\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    9459,
-                    9627
+                    11760,
+                    11991
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 304,
+                "lineno": 395,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045597",
+                    "id": "astnode100065275",
                     "name": "DomEvents#onBeforeUnload",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -409,22 +754,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onBeforeUnload",
             "$kind": "method",
-            "id": 1512,
+            "id": 2160,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    9685,
-                    9880
+                    12049,
+                    12244
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 317,
+                "lineno": 410,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045622",
+                    "id": "astnode100065308",
                     "name": "DomEvents#onChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -452,22 +797,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onChange",
             "$kind": "method",
-            "id": 1513,
+            "id": 2161,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    9938,
-                    10153
+                    12302,
+                    12517
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 329,
+                "lineno": 422,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045652",
+                    "id": "astnode100065338",
                     "name": "DomEvents#onClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -495,22 +840,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onClick",
             "$kind": "method",
-            "id": 1514,
+            "id": 2162,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    10211,
-                    10438
+                    12575,
+                    12802
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 343,
+                "lineno": 436,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045684",
+                    "id": "astnode100065370",
                     "name": "DomEvents#onContextMenu",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -538,22 +883,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onContextMenu",
             "$kind": "method",
-            "id": 1515,
+            "id": 2163,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    10467,
-                    10572
+                    12831,
+                    12936
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 356,
+                "lineno": 449,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045716",
+                    "id": "astnode100065402",
                     "name": "DomEvents#onDomContentLoaded",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -570,22 +915,65 @@
             "params": [],
             "$longname": "DomEvents#onDomContentLoaded",
             "$kind": "method",
-            "id": 1516,
+            "id": 2164,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    10630,
-                    10747
+                    12994,
+                    13215
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 365,
+                "lineno": 458,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045731",
+                    "id": "astnode100065417",
+                    "name": "DomEvents#onDoubleClick",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "event"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "event"
+                }
+            ],
+            "name": "onDoubleClick",
+            "longname": "DomEvents#onDoubleClick",
+            "kind": "function",
+            "memberof": "DomEvents",
+            "scope": "instance",
+            "$longname": "DomEvents#onDoubleClick",
+            "$kind": "method",
+            "id": 2165,
+            "neoClassName": "Neo.main.DomEvents"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} event\n     */",
+            "meta": {
+                "range": [
+                    13273,
+                    13390
+                ],
+                "filename": "DomEvents.mjs",
+                "lineno": 472,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100065449",
                     "name": "DomEvents#onDragOver",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -613,22 +1001,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onDragOver",
             "$kind": "method",
-            "id": 1517,
+            "id": 2166,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    10805,
-                    10886
+                    13448,
+                    13529
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 374,
+                "lineno": 481,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045744",
+                    "id": "astnode100065462",
                     "name": "DomEvents#onFocusIn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -656,22 +1044,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onFocusIn",
             "$kind": "method",
-            "id": 1518,
+            "id": 2167,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    10944,
-                    11026
+                    13587,
+                    13669
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 382,
+                "lineno": 489,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045759",
+                    "id": "astnode100065477",
                     "name": "DomEvents#onFocusOut",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -699,22 +1087,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onFocusOut",
             "$kind": "method",
-            "id": 1519,
+            "id": 2168,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    11055,
-                    11436
+                    13698,
+                    14080
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 389,
+                "lineno": 496,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045774",
+                    "id": "astnode100065492",
                     "name": "DomEvents#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -731,22 +1119,22 @@
             "params": [],
             "$longname": "DomEvents#onHashChange",
             "$kind": "method",
-            "id": 1520,
+            "id": 2169,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    11494,
-                    11717
+                    14138,
+                    14482
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 407,
+                "lineno": 514,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045818",
+                    "id": "astnode100065536",
                     "name": "DomEvents#onKeyDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -774,22 +1162,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onKeyDown",
             "$kind": "method",
-            "id": 1521,
+            "id": 2170,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    11775,
-                    11862
+                    14540,
+                    14627
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 419,
+                "lineno": 528,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045851",
+                    "id": "astnode100065578",
                     "name": "DomEvents#onKeyUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -817,22 +1205,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onKeyUp",
             "$kind": "method",
-            "id": 1522,
+            "id": 2171,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    11920,
-                    12114
+                    14685,
+                    14945
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 427,
+                "lineno": 536,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045866",
+                    "id": "astnode100065593",
                     "name": "DomEvents#onMouseEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -860,22 +1248,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onMouseEnter",
             "$kind": "method",
-            "id": 1523,
+            "id": 2172,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    12172,
-                    12360
+                    15003,
+                    15257
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 438,
+                "lineno": 548,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045895",
+                    "id": "astnode100065636",
                     "name": "DomEvents#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -903,22 +1291,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onMouseLeave",
             "$kind": "method",
-            "id": 1524,
+            "id": 2173,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} event\n     */",
             "meta": {
                 "range": [
-                    12418,
-                    13450
+                    15315,
+                    16743
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 449,
+                "lineno": 560,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045924",
+                    "id": "astnode100065679",
                     "name": "DomEvents#onWheel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -946,22 +1334,22 @@
             "scope": "instance",
             "$longname": "DomEvents#onWheel",
             "$kind": "method",
-            "id": 1525,
+            "id": 2174,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     * Example for Array values: \"categories[]=test1&categories[]=test2\"\n     * @param {String} str\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    13597,
-                    14439
+                    16890,
+                    17732
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 487,
+                "lineno": 607,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100046028",
+                    "id": "astnode100065825",
                     "name": "DomEvents#parseHash",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -999,22 +1387,22 @@
             "scope": "instance",
             "$longname": "DomEvents#parseHash",
             "$kind": "method",
-            "id": 1526,
+            "id": 2175,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     * used by parseHash to convert tokens into boolean or number types if needed\n     * @param {String} value\n     * @returns {Boolean|Number|String}\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    14630,
-                    14897
+                    17923,
+                    18190
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 528,
+                "lineno": 648,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100046172",
+                    "id": "astnode100065969",
                     "name": "DomEvents#parseValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1055,22 +1443,22 @@
             "scope": "instance",
             "$longname": "DomEvents#parseValue",
             "$kind": "method",
-            "id": 1527,
+            "id": 2176,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Array|String} data.cls\n     * @param {String} data.name\n     */",
             "meta": {
                 "range": [
-                    15025,
-                    15582
+                    18318,
+                    18875
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 546,
+                "lineno": 666,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100046210",
+                    "id": "astnode100066007",
                     "name": "DomEvents#registerPreventDefaultTargets",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1115,22 +1503,22 @@
             "scope": "instance",
             "$longname": "DomEvents#registerPreventDefaultTargets",
             "$kind": "method",
-            "id": 1528,
+            "id": 2177,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
             "comment": "/**\n     * Sends the parsed event data to the app worker\n     * @param {Object} data\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    15703,
-                    15890
+                    18996,
+                    19183
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 574,
+                "lineno": 694,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100046279",
+                    "id": "astnode100066076",
                     "name": "DomEvents#sendMessageToApp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1160,22 +1548,22 @@
             "scope": "instance",
             "$longname": "DomEvents#sendMessageToApp",
             "$kind": "method",
-            "id": 1529,
+            "id": 2178,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
-            "comment": "/**\n     *\n     * @param {Object} event\n     * @param {Object} targetArray\n     * @returns {String|Boolean} target cls if found, false otherwise\n     */",
+            "comment": "/**\n     *\n     * @param {Object} event\n     * @param {Object} targetArray\n     * @returns {Object|Boolean} target cls & node if found, false otherwise\n     */",
             "meta": {
                 "range": [
-                    16055,
-                    16598
+                    19355,
+                    19988
                 ],
                 "filename": "DomEvents.mjs",
-                "lineno": 590,
+                "lineno": 710,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100046303",
+                    "id": "astnode100066100",
                     "name": "DomEvents#testPathInclusion",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1209,11 +1597,11 @@
                 {
                     "type": {
                         "names": [
-                            "String",
+                            "Object",
                             "Boolean"
                         ]
                     },
-                    "description": "target cls if found, false otherwise"
+                    "description": "target cls & node if found, false otherwise"
                 }
             ],
             "name": "testPathInclusion",
@@ -1223,7 +1611,7 @@
             "scope": "instance",
             "$longname": "DomEvents#testPathInclusion",
             "$kind": "method",
-            "id": 1530,
+            "id": 2179,
             "neoClassName": "Neo.main.DomEvents"
         }
     ]

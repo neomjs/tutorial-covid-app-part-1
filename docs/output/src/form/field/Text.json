@@ -19,14 +19,40 @@
             "scope": "static",
             "$longname": "Neo.form.field.Text",
             "$kind": "class",
-            "id": 997,
+            "id": 1577,
             "neoClassName": "Neo.form.field.Text"
         },
         {
-            "comment": "/**\n         * Valid values for labelPosition\n         * @member {String[]} labelPositions=['bottom', 'inline', 'left', 'right', 'top']\n         * @protected\n         * @static\n         */",
+            "comment": "/**\n         * Valid values for autoCapitalize\n         * @member {String[]} autoCapitalizeValues=['characters','none','on','off','sentences','words']\n         * @protected\n         * @static\n         */",
             "meta": {
                 "filename": "Text.mjs",
                 "lineno": 20,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "description": "Valid values for autoCapitalize",
+            "kind": "member",
+            "name": "autoCapitalizeValues",
+            "type": {
+                "names": [
+                    "Array.<String>"
+                ]
+            },
+            "defaultvalue": "['characters','none','on','off','sentences','words']",
+            "access": "protected",
+            "scope": "static",
+            "longname": "autoCapitalizeValues",
+            "$longname": "autoCapitalizeValues",
+            "$kind": "property",
+            "id": 1578,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n         * Valid values for labelPosition\n         * @member {String[]} labelPositions=['bottom','inline','left','right','top']\n         * @protected\n         * @static\n         */",
+            "meta": {
+                "filename": "Text.mjs",
+                "lineno": 27,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -39,20 +65,20 @@
                     "Array.<String>"
                 ]
             },
-            "defaultvalue": "['bottom', 'inline', 'left', 'right', 'top']",
+            "defaultvalue": "['bottom','inline','left','right','top']",
             "access": "protected",
             "scope": "static",
             "longname": "labelPositions",
             "$longname": "labelPositions",
             "$kind": "property",
-            "id": 998,
+            "id": 1579,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {String} className='Neo.form.field.Text'\n         * @protected\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 28,
+                "lineno": 35,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -70,14 +96,14 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 999,
+            "id": 1580,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {String} ntype='textfield'\n         * @protected\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 33,
+                "lineno": 40,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -95,14 +121,39 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1000,
+            "id": 1581,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n         * An enumerated attribute that controls whether and how text input is automatically capitalized as it is\n         * entered/edited by the user.\n         * Valid values: 'characters', 'none', 'on', 'off', 'sentences', 'words'\n         * @member {String} autoCapitalize=off'\n         */",
+            "meta": {
+                "filename": "Text.mjs",
+                "lineno": 47,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "description": "An enumerated attribute that controls whether and how text input is automatically capitalized as it is<br />entered/edited by the user.<br />Valid values: 'characters', 'none', 'on', 'off', 'sentences', 'words'",
+            "kind": "member",
+            "name": "autoCapitalize",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "off'",
+            "longname": "autoCapitalize",
+            "scope": "global",
+            "$longname": "autoCapitalize",
+            "$kind": "property",
+            "id": 1582,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * Internal variable to store the actual width for the label centerBorderEl\n         * (only needed for labelPosition: 'inline')\n         * @member {Number|null} centerBorderElWidth=null\n         * @protected\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 40,
+                "lineno": 54,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -122,14 +173,14 @@
             "scope": "global",
             "$longname": "centerBorderElWidth",
             "$kind": "property",
-            "id": 1001,
+            "id": 1583,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * True shows a clear trigger in case the field has a non empty value.\n         * @member {Boolean} clearable_=true\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 45,
+                "lineno": 59,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -147,14 +198,14 @@
             "scope": "global",
             "$longname": "clearable_",
             "$kind": "property",
-            "id": 1002,
+            "id": 1584,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * True will reset the field to its initial value config.\n         * Recommended for fields with required: true\n         * @member {Boolean} clearToOriginalValue=false\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 51,
+                "lineno": 65,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -172,14 +223,14 @@
             "scope": "global",
             "$longname": "clearToOriginalValue",
             "$kind": "property",
-            "id": 1003,
+            "id": 1585,
             "neoClassName": "Neo.form.field.Text"
         },
         {
-            "comment": "/**\n         * @member {Array} cls=['neo-textfield']\n         */",
+            "comment": "/**\n         * @member {String[]} cls=['neo-textfield']\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 55,
+                "lineno": 69,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -188,7 +239,7 @@
             "name": "cls",
             "type": {
                 "names": [
-                    "Array"
+                    "Array.<String>"
                 ]
             },
             "defaultvalue": "['neo-textfield']",
@@ -196,14 +247,14 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1004,
+            "id": 1586,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {Boolean} hideLabel_=false\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 59,
+                "lineno": 73,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -220,14 +271,14 @@
             "scope": "global",
             "$longname": "hideLabel_",
             "$kind": "property",
-            "id": 1005,
+            "id": 1587,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {String} inputType_='text'\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 63,
+                "lineno": 77,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -244,18 +295,19 @@
             "scope": "global",
             "$longname": "inputType_",
             "$kind": "property",
-            "id": 1006,
+            "id": 1588,
             "neoClassName": "Neo.form.field.Text"
         },
         {
-            "comment": "/**\n         * @member {String} labelPosition_='left'\n         */",
+            "comment": "/**\n         * Valid values: 'bottom', 'inline', 'left', 'right', 'top'\n         * @member {String} labelPosition_='left'\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 67,
+                "lineno": 82,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
             },
+            "description": "Valid values: 'bottom', 'inline', 'left', 'right', 'top'",
             "kind": "member",
             "name": "labelPosition_",
             "type": {
@@ -268,14 +320,14 @@
             "scope": "global",
             "$longname": "labelPosition_",
             "$kind": "property",
-            "id": 1007,
+            "id": 1589,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {String} labelText_='LabelText'\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 71,
+                "lineno": 86,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -292,14 +344,14 @@
             "scope": "global",
             "$longname": "labelText_",
             "$kind": "property",
-            "id": 1008,
+            "id": 1590,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * defaults to px\n         * @member {Number|String} labelWidth_=150\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 76,
+                "lineno": 91,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -318,14 +370,14 @@
             "scope": "global",
             "$longname": "labelWidth_",
             "$kind": "property",
-            "id": 1009,
+            "id": 1591,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {String|null} placeholderText_=null\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 80,
+                "lineno": 95,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -343,14 +395,14 @@
             "scope": "global",
             "$longname": "placeholderText_",
             "$kind": "property",
-            "id": 1010,
+            "id": 1592,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {Boolean} required_=false\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 84,
+                "lineno": 99,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -367,14 +419,14 @@
             "scope": "global",
             "$longname": "required_",
             "$kind": "property",
-            "id": 1011,
+            "id": 1593,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {Object|Object[]|null} triggers_=null\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 88,
+                "lineno": 103,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -393,14 +445,14 @@
             "scope": "global",
             "$longname": "triggers_",
             "$kind": "property",
-            "id": 1012,
+            "id": 1594,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n         * @member {Object} _vdom\n         */",
             "meta": {
                 "filename": "Text.mjs",
-                "lineno": 92,
+                "lineno": 107,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -416,22 +468,22 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1013,
+            "id": 1595,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    3365,
-                    3908
+                    3933,
+                    4476
                 ],
                 "filename": "Text.mjs",
-                "lineno": 113,
+                "lineno": 128,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031314",
+                    "id": "astnode100049280",
                     "name": "Text",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -458,22 +510,1625 @@
             "scope": "global",
             "$longname": "Text",
             "$kind": "constructor",
-            "id": 1014,
+            "id": 1596,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the autoCapitalize config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    4638,
+                    4786
+                ],
+                "filename": "Text.mjs",
+                "lineno": 157,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049361",
+                    "name": "Text#afterSetAutoCapitalize",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the autoCapitalize config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetAutoCapitalize",
+            "longname": "Text#afterSetAutoCapitalize",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetAutoCapitalize",
+            "$kind": "method",
+            "id": 1597,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the clearable config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    4945,
+                    5242
+                ],
+                "filename": "Text.mjs",
+                "lineno": 167,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049383",
+                    "name": "Text#afterSetClearable",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the clearable config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetClearable",
+            "longname": "Text#afterSetClearable",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetClearable",
+            "$kind": "method",
+            "id": 1598,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the clearToOriginalValue config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    5412,
+                    5587
+                ],
+                "filename": "Text.mjs",
+                "lineno": 186,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049425",
+                    "name": "Text#afterSetClearToOriginalValue",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the clearToOriginalValue config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetClearToOriginalValue",
+            "longname": "Text#afterSetClearToOriginalValue",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetClearToOriginalValue",
+            "$kind": "method",
+            "id": 1599,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the hideLabel config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    5746,
+                    5954
+                ],
+                "filename": "Text.mjs",
+                "lineno": 199,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049442",
+                    "name": "Text#afterSetHideLabel",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the hideLabel config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetHideLabel",
+            "longname": "Text#afterSetHideLabel",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetHideLabel",
+            "$kind": "method",
+            "id": 1600,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the inputType config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    6111,
+                    6199
+                ],
+                "filename": "Text.mjs",
+                "lineno": 215,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049478",
+                    "name": "Text#afterSetInputType",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the inputType config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetInputType",
+            "longname": "Text#afterSetInputType",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetInputType",
+            "$kind": "method",
+            "id": 1601,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the labelPosition config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    6360,
+                    7885
+                ],
+                "filename": "Text.mjs",
+                "lineno": 225,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049491",
+                    "name": "Text#afterSetLabelPosition",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the labelPosition config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetLabelPosition",
+            "longname": "Text#afterSetLabelPosition",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetLabelPosition",
+            "$kind": "method",
+            "id": 1602,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the labelText config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    8042,
+                    8684
+                ],
+                "filename": "Text.mjs",
+                "lineno": 283,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049690",
+                    "name": "Text#afterSetLabelText",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the labelText config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetLabelText",
+            "longname": "Text#afterSetLabelText",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetLabelText",
+            "$kind": "method",
+            "id": 1603,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the labelWidth config got changed\n     * @param {Number|String} value\n     * @param {Number|String} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    8856,
+                    9223
+                ],
+                "filename": "Text.mjs",
+                "lineno": 313,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049775",
+                    "name": "Text#afterSetLabelWidth",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the labelWidth config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetLabelWidth",
+            "longname": "Text#afterSetLabelWidth",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetLabelWidth",
+            "$kind": "method",
+            "id": 1604,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the mounted config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    9380,
+                    9581
+                ],
+                "filename": "Text.mjs",
+                "lineno": 335,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049827",
+                    "name": "Text#afterSetMounted",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the mounted config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetMounted",
+            "longname": "Text#afterSetMounted",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetMounted",
+            "$kind": "method",
+            "id": 1605,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the placeholderText config got changed\n     * @param {String|null} value\n     * @param {String|null} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    9754,
+                    9877
+                ],
+                "filename": "Text.mjs",
+                "lineno": 349,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049854",
+                    "name": "Text#afterSetPlaceholderText",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the placeholderText config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetPlaceholderText",
+            "longname": "Text#afterSetPlaceholderText",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetPlaceholderText",
+            "$kind": "method",
+            "id": 1606,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the required config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    10035,
+                    10126
+                ],
+                "filename": "Text.mjs",
+                "lineno": 359,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049872",
+                    "name": "Text#afterSetRequired",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the required config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetRequired",
+            "longname": "Text#afterSetRequired",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetRequired",
+            "$kind": "method",
+            "id": 1607,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the triggers config got changed\n     * @param {Object[]} value\n     * @param {Object[]} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    10286,
+                    12136
+                ],
+                "filename": "Text.mjs",
+                "lineno": 369,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100049885",
+                    "name": "Text#afterSetTriggers",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the triggers config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array.<Object>"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array.<Object>"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetTriggers",
+            "longname": "Text#afterSetTriggers",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetTriggers",
+            "$kind": "method",
+            "id": 1608,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the value config got changed\n     * todo: add validation logic\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    12323,
+                    12840
+                ],
+                "filename": "Text.mjs",
+                "lineno": 434,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050135",
+                    "name": "Text#afterSetValue",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the value config got changed<br />todo: add validation logic",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetValue",
+            "longname": "Text#afterSetValue",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetValue",
+            "$kind": "method",
+            "id": 1609,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered after the width config got changed\n     * @param {Number|String} value\n     * @param {Number|String} oldValue\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    13007,
+                    13124
+                ],
+                "filename": "Text.mjs",
+                "lineno": 457,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050220",
+                    "name": "Text#afterSetWidth",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the width config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetWidth",
+            "longname": "Text#afterSetWidth",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#afterSetWidth",
+            "$kind": "method",
+            "id": 1610,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Return a shallow copy of the triggers config\n     * @param {Array|null} value\n     * @protected\n     */",
+            "meta": {
+                "range": [
+                    13249,
+                    13381
+                ],
+                "filename": "Text.mjs",
+                "lineno": 467,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050238",
+                    "name": "Text#beforeGetTriggers",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Return a shallow copy of the triggers config",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                }
+            ],
+            "access": "protected",
+            "name": "beforeGetTriggers",
+            "longname": "Text#beforeGetTriggers",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#beforeGetTriggers",
+            "$kind": "method",
+            "id": 1611,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered before the autoCapitalize config gets changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     * @returns {String}\n     */",
+            "meta": {
+                "range": [
+                    13570,
+                    13717
+                ],
+                "filename": "Text.mjs",
+                "lineno": 482,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050256",
+                    "name": "Text#beforeSetAutoCapitalize",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the autoCapitalize config gets changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "beforeSetAutoCapitalize",
+            "longname": "Text#beforeSetAutoCapitalize",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#beforeSetAutoCapitalize",
+            "$kind": "method",
+            "id": 1612,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered before the labelPosition config gets changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     * @returns {String}\n     */",
+            "meta": {
+                "range": [
+                    13905,
+                    14026
+                ],
+                "filename": "Text.mjs",
+                "lineno": 493,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050271",
+                    "name": "Text#beforeSetLabelPosition",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the labelPosition config gets changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "beforeSetLabelPosition",
+            "longname": "Text#beforeSetLabelPosition",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#beforeSetLabelPosition",
+            "$kind": "method",
+            "id": 1613,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Triggered before the triggers config gets changed\n     * @param {Object|Object[]} value\n     * @param {Object[]} oldValue\n     * @returns {Object[]} the parsed triggers config\n     * @protected\n     * @returns {Object|Object[]}\n     */",
+            "meta": {
+                "range": [
+                    14283,
+                    15238
+                ],
+                "filename": "Text.mjs",
+                "lineno": 505,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050285",
+                    "name": "Text#beforeSetTriggers",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the triggers config gets changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "Array.<Object>"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array.<Object>"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Array.<Object>"
+                        ]
+                    },
+                    "description": "the parsed triggers config"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "Array.<Object>"
+                        ]
+                    }
+                }
+            ],
+            "access": "protected",
+            "name": "beforeSetTriggers",
+            "longname": "Text#beforeSetTriggers",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#beforeSetTriggers",
+            "$kind": "method",
+            "id": 1614,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Changes the value of a inputEl vdom object attribute or removes it in case it has no value\n     * @param {String} key\n     * @param {Array|Number|Object|String|null} value\n     */",
+            "meta": {
+                "range": [
+                    15439,
+                    15700
+                ],
+                "filename": "Text.mjs",
+                "lineno": 542,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050430",
+                    "name": "Text#changeInputElKey",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "key",
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Changes the value of a inputEl vdom object attribute or removes it in case it has no value",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "key"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "Number",
+                            "Object",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                }
+            ],
+            "name": "changeInputElKey",
+            "longname": "Text#changeInputElKey",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#changeInputElKey",
+            "$kind": "method",
+            "id": 1615,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Resets the field to its original value or null depending on the clearToOriginalValue config\n     */",
+            "meta": {
+                "range": [
+                    15821,
+                    15963
+                ],
+                "filename": "Text.mjs",
+                "lineno": 558,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050476",
+                    "name": "Text#clear",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Resets the field to its original value or null depending on the clearToOriginalValue config",
+            "name": "clear",
+            "longname": "Text#clear",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Text#clear",
+            "$kind": "method",
+            "id": 1616,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {Object|null}\n     */",
+            "meta": {
+                "range": [
+                    16022,
+                    16159
+                ],
+                "filename": "Text.mjs",
+                "lineno": 569,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050505",
+                    "name": "Text#getCenterBorderEl",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "null"
+                        ]
+                    }
+                }
+            ],
+            "name": "getCenterBorderEl",
+            "longname": "Text#getCenterBorderEl",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Text#getCenterBorderEl",
+            "$kind": "method",
+            "id": 1617,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {Object|null}\n     */",
+            "meta": {
+                "range": [
+                    16218,
+                    16346
+                ],
+                "filename": "Text.mjs",
+                "lineno": 578,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050528",
+                    "name": "Text#getInputEl",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "null"
+                        ]
+                    }
+                }
+            ],
+            "name": "getInputEl",
+            "longname": "Text#getInputEl",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Text#getInputEl",
+            "$kind": "method",
+            "id": 1618,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {String}\n     */",
+            "meta": {
+                "range": [
+                    16400,
+                    16457
+                ],
+                "filename": "Text.mjs",
+                "lineno": 587,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050551",
+                    "name": "Text#getInputElId",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "getInputElId",
+            "longname": "Text#getInputElId",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Text#getInputElId",
+            "$kind": "method",
+            "id": 1619,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Calculates the new inputWidth based on the labelWidth & total width\n     * @returns {Number|null} null in case this.width is unknown\n     */",
+            "meta": {
+                "range": [
+                    16619,
+                    17086
+                ],
+                "filename": "Text.mjs",
+                "lineno": 595,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050561",
+                    "name": "Text#getInputWidth",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Calculates the new inputWidth based on the labelWidth & total width",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "null"
+                        ]
+                    },
+                    "description": "null in case this.width is unknown"
+                }
+            ],
+            "name": "getInputWidth",
+            "longname": "Text#getInputWidth",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Text#getInputWidth",
+            "$kind": "method",
+            "id": 1620,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {Object|null}\n     */",
+            "meta": {
+                "range": [
+                    17145,
+                    17263
+                ],
+                "filename": "Text.mjs",
+                "lineno": 614,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050625",
+                    "name": "Text#getLabelEl",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "null"
+                        ]
+                    }
+                }
+            ],
+            "name": "getLabelEl",
+            "longname": "Text#getLabelEl",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Text#getLabelEl",
+            "$kind": "method",
+            "id": 1621,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} type\n     * @returns {Neo.form.field.trigger.Base|null}\n     */",
+            "meta": {
+                "range": [
+                    17371,
+                    17691
+                ],
+                "filename": "Text.mjs",
+                "lineno": 624,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050648",
+                    "name": "Text#getTrigger",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "type"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "type"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.form.field.trigger.Base",
+                            "null"
+                        ]
+                    }
+                }
+            ],
+            "name": "getTrigger",
+            "longname": "Text#getTrigger",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#getTrigger",
+            "$kind": "method",
+            "id": 1622,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} id\n     * @returns {Neo.form.field.trigger.Base|null}\n     */",
+            "meta": {
+                "range": [
+                    17797,
+                    18115
+                ],
+                "filename": "Text.mjs",
+                "lineno": 644,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050694",
+                    "name": "Text#getTriggerById",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "id"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "id"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.form.field.trigger.Base",
+                            "null"
+                        ]
+                    }
+                }
+            ],
+            "name": "getTriggerById",
+            "longname": "Text#getTriggerById",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#getTriggerById",
+            "$kind": "method",
+            "id": 1623,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} type\n     * @protected\n     * @returns {String} The trigger node id\n     */",
+            "meta": {
+                "range": [
+                    18235,
+                    18306
+                ],
+                "filename": "Text.mjs",
+                "lineno": 665,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050740",
+                    "name": "Text#getTriggerId",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "type"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "type"
+                }
+            ],
+            "access": "protected",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "The trigger node id"
+                }
+            ],
+            "name": "getTriggerId",
+            "longname": "Text#getTriggerId",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#getTriggerId",
+            "$kind": "method",
+            "id": 1624,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     * Finds a trigger by a given type config\n     * @param {String} type\n     * @returns {Boolean}\n     */",
+            "meta": {
+                "range": [
+                    18428,
+                    18715
+                ],
+                "filename": "Text.mjs",
+                "lineno": 674,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050753",
+                    "name": "Text#hasTrigger",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "type"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Finds a trigger by a given type config",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "type"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    }
+                }
+            ],
+            "name": "hasTrigger",
+            "longname": "Text#hasTrigger",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "$longname": "Text#hasTrigger",
+            "$kind": "method",
+            "id": 1625,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {Boolean}\n     */",
+            "meta": {
+                "range": [
+                    18770,
+                    18853
+                ],
+                "filename": "Text.mjs",
+                "lineno": 692,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050794",
+                    "name": "Text#isEmpty",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    }
+                }
+            ],
+            "name": "isEmpty",
+            "longname": "Text#isEmpty",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Text#isEmpty",
+            "$kind": "method",
+            "id": 1626,
+            "neoClassName": "Neo.form.field.Text"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {Boolean}\n     */",
+            "meta": {
+                "range": [
+                    18908,
+                    19095
+                ],
+                "filename": "Text.mjs",
+                "lineno": 700,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100050814",
+                    "name": "Text#isValid",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    }
+                }
+            ],
+            "name": "isValid",
+            "longname": "Text#isValid",
+            "kind": "function",
+            "memberof": "Text",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Text#isValid",
+            "$kind": "method",
+            "id": 1627,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     * @param {Boolean} [preventOriginalConfig] True prevents the instance from getting an originalConfig property\n     * @returns {Object} config\n     */",
             "meta": {
                 "range": [
-                    4114,
-                    4394
+                    19301,
+                    19581
                 ],
                 "filename": "Text.mjs",
-                "lineno": 142,
+                "lineno": 716,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031395",
+                    "id": "astnode100050851",
                     "name": "Text#mergeConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -521,1437 +2176,22 @@
             "scope": "instance",
             "$longname": "Text#mergeConfig",
             "$kind": "method",
-            "id": 1015,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the clearable config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    4553,
-                    4850
-                ],
-                "filename": "Text.mjs",
-                "lineno": 159,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031438",
-                    "name": "Text#afterSetClearable",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the clearable config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetClearable",
-            "longname": "Text#afterSetClearable",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetClearable",
-            "$kind": "method",
-            "id": 1016,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the clearToOriginalValue config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    5020,
-                    5195
-                ],
-                "filename": "Text.mjs",
-                "lineno": 178,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031480",
-                    "name": "Text#afterSetClearToOriginalValue",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the clearToOriginalValue config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetClearToOriginalValue",
-            "longname": "Text#afterSetClearToOriginalValue",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetClearToOriginalValue",
-            "$kind": "method",
-            "id": 1017,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the hideLabel config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    5354,
-                    5562
-                ],
-                "filename": "Text.mjs",
-                "lineno": 191,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031497",
-                    "name": "Text#afterSetHideLabel",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the hideLabel config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetHideLabel",
-            "longname": "Text#afterSetHideLabel",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetHideLabel",
-            "$kind": "method",
-            "id": 1018,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the inputType config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    5719,
-                    5807
-                ],
-                "filename": "Text.mjs",
-                "lineno": 207,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031533",
-                    "name": "Text#afterSetInputType",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the inputType config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetInputType",
-            "longname": "Text#afterSetInputType",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetInputType",
-            "$kind": "method",
-            "id": 1019,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the labelPosition config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    5968,
-                    7493
-                ],
-                "filename": "Text.mjs",
-                "lineno": 217,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031546",
-                    "name": "Text#afterSetLabelPosition",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the labelPosition config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetLabelPosition",
-            "longname": "Text#afterSetLabelPosition",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetLabelPosition",
-            "$kind": "method",
-            "id": 1020,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the labelText config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    7650,
-                    8292
-                ],
-                "filename": "Text.mjs",
-                "lineno": 275,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031745",
-                    "name": "Text#afterSetLabelText",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the labelText config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetLabelText",
-            "longname": "Text#afterSetLabelText",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetLabelText",
-            "$kind": "method",
-            "id": 1021,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the labelWidth config got changed\n     * @param {Number|String} value\n     * @param {Number|String} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    8464,
-                    8831
-                ],
-                "filename": "Text.mjs",
-                "lineno": 305,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031830",
-                    "name": "Text#afterSetLabelWidth",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the labelWidth config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Number",
-                            "String"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Number",
-                            "String"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetLabelWidth",
-            "longname": "Text#afterSetLabelWidth",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetLabelWidth",
-            "$kind": "method",
-            "id": 1022,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the placeholderText config got changed\n     * @param {String|null} value\n     * @param {String|null} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    9004,
-                    9127
-                ],
-                "filename": "Text.mjs",
-                "lineno": 327,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031882",
-                    "name": "Text#afterSetPlaceholderText",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the placeholderText config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String",
-                            "null"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "String",
-                            "null"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetPlaceholderText",
-            "longname": "Text#afterSetPlaceholderText",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetPlaceholderText",
-            "$kind": "method",
-            "id": 1023,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the required config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    9285,
-                    9376
-                ],
-                "filename": "Text.mjs",
-                "lineno": 337,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031900",
-                    "name": "Text#afterSetRequired",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the required config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetRequired",
-            "longname": "Text#afterSetRequired",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetRequired",
-            "$kind": "method",
-            "id": 1024,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the triggers config got changed\n     * @param {Object[]} value\n     * @param {Object[]} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    9536,
-                    11458
-                ],
-                "filename": "Text.mjs",
-                "lineno": 347,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100031913",
-                    "name": "Text#afterSetTriggers",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the triggers config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Array.<Object>"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Array.<Object>"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetTriggers",
-            "longname": "Text#afterSetTriggers",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetTriggers",
-            "$kind": "method",
-            "id": 1025,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the value config got changed\n     * todo: add validation logic\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    11645,
-                    12136
-                ],
-                "filename": "Text.mjs",
-                "lineno": 414,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032163",
-                    "name": "Text#afterSetValue",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the value config got changed<br />todo: add validation logic",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetValue",
-            "longname": "Text#afterSetValue",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetValue",
-            "$kind": "method",
-            "id": 1026,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered after the width config got changed\n     * @param {Number|String} value\n     * @param {Number|String} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    12303,
-                    12420
-                ],
-                "filename": "Text.mjs",
-                "lineno": 437,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032248",
-                    "name": "Text#afterSetWidth",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered after the width config got changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Number",
-                            "String"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Number",
-                            "String"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "afterSetWidth",
-            "longname": "Text#afterSetWidth",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#afterSetWidth",
-            "$kind": "method",
-            "id": 1027,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Return a shallow copy of the triggers config\n     * @param {Array|null} value\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    12545,
-                    12677
-                ],
-                "filename": "Text.mjs",
-                "lineno": 447,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032266",
-                    "name": "Text#beforeGetTriggers",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Return a shallow copy of the triggers config",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Array",
-                            "null"
-                        ]
-                    },
-                    "name": "value"
-                }
-            ],
-            "access": "protected",
-            "name": "beforeGetTriggers",
-            "longname": "Text#beforeGetTriggers",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#beforeGetTriggers",
-            "$kind": "method",
-            "id": 1028,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered before the labelPosition config gets changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    12840,
-                    12961
-                ],
-                "filename": "Text.mjs",
-                "lineno": 461,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032284",
-                    "name": "Text#beforeSetLabelPosition",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered before the labelPosition config gets changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "access": "protected",
-            "name": "beforeSetLabelPosition",
-            "longname": "Text#beforeSetLabelPosition",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#beforeSetLabelPosition",
-            "$kind": "method",
-            "id": 1029,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Triggered before the triggers config gets changed\n     * @param {Object|Object[]} value\n     * @param {Object[]} oldValue\n     * @returns {Object[]} the parsed triggers config\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    13184,
-                    14142
-                ],
-                "filename": "Text.mjs",
-                "lineno": 472,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032298",
-                    "name": "Text#beforeSetTriggers",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Triggered before the triggers config gets changed",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Object",
-                            "Array.<Object>"
-                        ]
-                    },
-                    "name": "value"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Array.<Object>"
-                        ]
-                    },
-                    "name": "oldValue"
-                }
-            ],
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Array.<Object>"
-                        ]
-                    },
-                    "description": "the parsed triggers config"
-                }
-            ],
-            "access": "protected",
-            "name": "beforeSetTriggers",
-            "longname": "Text#beforeSetTriggers",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#beforeSetTriggers",
-            "$kind": "method",
-            "id": 1030,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Changes the value of a inputEl vdom object attribute or removes it in case it has no value\n     * @param {String} key\n     * @param {Array|Number|Object|String|null} value\n     */",
-            "meta": {
-                "range": [
-                    14343,
-                    14604
-                ],
-                "filename": "Text.mjs",
-                "lineno": 510,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032444",
-                    "name": "Text#changeInputElKey",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "key",
-                        "value"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Changes the value of a inputEl vdom object attribute or removes it in case it has no value",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "key"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Array",
-                            "Number",
-                            "Object",
-                            "String",
-                            "null"
-                        ]
-                    },
-                    "name": "value"
-                }
-            ],
-            "name": "changeInputElKey",
-            "longname": "Text#changeInputElKey",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#changeInputElKey",
-            "$kind": "method",
-            "id": 1031,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Resets the field to its original value or null depending on the clearToOriginalValue config\n     */",
-            "meta": {
-                "range": [
-                    14725,
-                    14867
-                ],
-                "filename": "Text.mjs",
-                "lineno": 526,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032490",
-                    "name": "Text#clear",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Resets the field to its original value or null depending on the clearToOriginalValue config",
-            "name": "clear",
-            "longname": "Text#clear",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Text#clear",
-            "$kind": "method",
-            "id": 1032,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @returns {Object|null}\n     */",
-            "meta": {
-                "range": [
-                    14926,
-                    15063
-                ],
-                "filename": "Text.mjs",
-                "lineno": 537,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032519",
-                    "name": "Text#getCenterBorderEl",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Object",
-                            "null"
-                        ]
-                    }
-                }
-            ],
-            "name": "getCenterBorderEl",
-            "longname": "Text#getCenterBorderEl",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Text#getCenterBorderEl",
-            "$kind": "method",
-            "id": 1033,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @returns {Object|null}\n     */",
-            "meta": {
-                "range": [
-                    15122,
-                    15250
-                ],
-                "filename": "Text.mjs",
-                "lineno": 546,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032542",
-                    "name": "Text#getInputEl",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Object",
-                            "null"
-                        ]
-                    }
-                }
-            ],
-            "name": "getInputEl",
-            "longname": "Text#getInputEl",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Text#getInputEl",
-            "$kind": "method",
-            "id": 1034,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @return {String}\n     */",
-            "meta": {
-                "range": [
-                    15303,
-                    15360
-                ],
-                "filename": "Text.mjs",
-                "lineno": 555,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032565",
-                    "name": "Text#getInputElId",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    }
-                }
-            ],
-            "name": "getInputElId",
-            "longname": "Text#getInputElId",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Text#getInputElId",
-            "$kind": "method",
-            "id": 1035,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Calculates the new inputWidth based on the labelWidth & total width\n     * @returns {Number|null} null in case this.width is unknown\n     */",
-            "meta": {
-                "range": [
-                    15522,
-                    15989
-                ],
-                "filename": "Text.mjs",
-                "lineno": 563,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032575",
-                    "name": "Text#getInputWidth",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Calculates the new inputWidth based on the labelWidth & total width",
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Number",
-                            "null"
-                        ]
-                    },
-                    "description": "null in case this.width is unknown"
-                }
-            ],
-            "name": "getInputWidth",
-            "longname": "Text#getInputWidth",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Text#getInputWidth",
-            "$kind": "method",
-            "id": 1036,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @returns {Object|null}\n     */",
-            "meta": {
-                "range": [
-                    16048,
-                    16166
-                ],
-                "filename": "Text.mjs",
-                "lineno": 582,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032639",
-                    "name": "Text#getLabelEl",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Object",
-                            "null"
-                        ]
-                    }
-                }
-            ],
-            "name": "getLabelEl",
-            "longname": "Text#getLabelEl",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Text#getLabelEl",
-            "$kind": "method",
-            "id": 1037,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @param {String} type\n     * @returns {Neo.form.field.trigger.Base|null}\n     */",
-            "meta": {
-                "range": [
-                    16274,
-                    16594
-                ],
-                "filename": "Text.mjs",
-                "lineno": 592,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032662",
-                    "name": "Text#getTrigger",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "type"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "type"
-                }
-            ],
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Neo.form.field.trigger.Base",
-                            "null"
-                        ]
-                    }
-                }
-            ],
-            "name": "getTrigger",
-            "longname": "Text#getTrigger",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#getTrigger",
-            "$kind": "method",
-            "id": 1038,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @param {String} id\n     * @returns {Neo.form.field.trigger.Base|null}\n     */",
-            "meta": {
-                "range": [
-                    16700,
-                    17018
-                ],
-                "filename": "Text.mjs",
-                "lineno": 612,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032708",
-                    "name": "Text#getTriggerById",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "id"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "id"
-                }
-            ],
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Neo.form.field.trigger.Base",
-                            "null"
-                        ]
-                    }
-                }
-            ],
-            "name": "getTriggerById",
-            "longname": "Text#getTriggerById",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#getTriggerById",
-            "$kind": "method",
-            "id": 1039,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @param {String} type\n     * @protected\n     * @returns {String} The trigger node id\n     */",
-            "meta": {
-                "range": [
-                    17138,
-                    17209
-                ],
-                "filename": "Text.mjs",
-                "lineno": 633,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032754",
-                    "name": "Text#getTriggerId",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "type"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "type"
-                }
-            ],
-            "access": "protected",
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "description": "The trigger node id"
-                }
-            ],
-            "name": "getTriggerId",
-            "longname": "Text#getTriggerId",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#getTriggerId",
-            "$kind": "method",
-            "id": 1040,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     * Finds a trigger by a given type config\n     * @param {String} type\n     * @returns {Boolean}\n     */",
-            "meta": {
-                "range": [
-                    17331,
-                    17618
-                ],
-                "filename": "Text.mjs",
-                "lineno": 642,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032767",
-                    "name": "Text#hasTrigger",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "type"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Finds a trigger by a given type config",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "String"
-                        ]
-                    },
-                    "name": "type"
-                }
-            ],
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    }
-                }
-            ],
-            "name": "hasTrigger",
-            "longname": "Text#hasTrigger",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "$longname": "Text#hasTrigger",
-            "$kind": "method",
-            "id": 1041,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @returns {Boolean}\n     */",
-            "meta": {
-                "range": [
-                    17673,
-                    17756
-                ],
-                "filename": "Text.mjs",
-                "lineno": 660,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032808",
-                    "name": "Text#isEmpty",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    }
-                }
-            ],
-            "name": "isEmpty",
-            "longname": "Text#isEmpty",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Text#isEmpty",
-            "$kind": "method",
-            "id": 1042,
-            "neoClassName": "Neo.form.field.Text"
-        },
-        {
-            "comment": "/**\n     *\n     * @returns {Boolean}\n     */",
-            "meta": {
-                "range": [
-                    17811,
-                    17998
-                ],
-                "filename": "Text.mjs",
-                "lineno": 668,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100032828",
-                    "name": "Text#isValid",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    }
-                }
-            ],
-            "name": "isValid",
-            "longname": "Text#isValid",
-            "kind": "function",
-            "memberof": "Text",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Text#isValid",
-            "$kind": "method",
-            "id": 1043,
+            "id": 1628,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n     *\n     * @param {Array} path\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    18072,
-                    18550
+                    19655,
+                    20133
                 ],
                 "filename": "Text.mjs",
-                "lineno": 683,
+                "lineno": 732,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032865",
+                    "id": "astnode100050894",
                     "name": "Text#onFocusEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1980,22 +2220,22 @@
             "scope": "instance",
             "$longname": "Text#onFocusEnter",
             "$kind": "method",
-            "id": 1044,
+            "id": 1629,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n     *\n     * @param {Array} path\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    18624,
-                    19105
+                    20207,
+                    20688
                 ],
                 "filename": "Text.mjs",
-                "lineno": 707,
+                "lineno": 756,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032936",
+                    "id": "astnode100050965",
                     "name": "Text#onFocusLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2024,22 +2264,22 @@
             "scope": "instance",
             "$longname": "Text#onFocusLeave",
             "$kind": "method",
-            "id": 1045,
+            "id": 1630,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n     * @param {Object} data\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    19173,
-                    19607
+                    20756,
+                    21190
                 ],
                 "filename": "Text.mjs",
-                "lineno": 729,
+                "lineno": 778,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100033003",
+                    "id": "astnode100051032",
                     "name": "Text#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2068,22 +2308,22 @@
             "scope": "instance",
             "$longname": "Text#onInputValueChange",
             "$kind": "method",
-            "id": 1046,
+            "id": 1631,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n     * Removes all triggers of a given type\n     * @param {String} type\n     * @param {Boolean} [silent=false] true prevents a vdom update\n     * @param {Array} [triggerSource] pass a shallow copy of this.triggers\n     * @returns {Boolean} true in case a trigger was found & removed\n     */",
             "meta": {
                 "range": [
-                    19912,
-                    20522
+                    21495,
+                    22105
                 ],
                 "filename": "Text.mjs",
-                "lineno": 752,
+                "lineno": 801,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100033058",
+                    "id": "astnode100051087",
                     "name": "Text#removeTrigger",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2145,22 +2385,22 @@
             "scope": "instance",
             "$longname": "Text#removeTrigger",
             "$kind": "method",
-            "id": 1047,
+            "id": 1632,
             "neoClassName": "Neo.form.field.Text"
         },
         {
-            "comment": "/**\n     * Used for labelPosition: 'inline' to adjust the top border matching to the length of the label\n     * @param {Boolean} silent true to get the value, but not apply it to the DOM\n     * @protected\n     */",
+            "comment": "/**\n     * Used for labelPosition: 'inline' to adjust the top border matching to the length of the label\n     * @param {Boolean} [silent=false] true to get the value, but not apply it to the DOM\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    20745,
-                    21269
+                    22336,
+                    22866
                 ],
                 "filename": "Text.mjs",
-                "lineno": 782,
+                "lineno": 831,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100033141",
+                    "id": "astnode100051170",
                     "name": "Text#updateCenterBorderElWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2179,6 +2419,8 @@
                             "Boolean"
                         ]
                     },
+                    "optional": true,
+                    "defaultvalue": false,
                     "description": "true to get the value, but not apply it to the DOM",
                     "name": "silent"
                 }
@@ -2191,22 +2433,22 @@
             "scope": "instance",
             "$longname": "Text#updateCenterBorderElWidth",
             "$kind": "method",
-            "id": 1048,
+            "id": 1633,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n     * Calculates the new inputWidth based on the labelWidth & total width\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    21384,
-                    21715
+                    22981,
+                    23312
                 ],
                 "filename": "Text.mjs",
-                "lineno": 805,
+                "lineno": 854,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100033221",
+                    "id": "astnode100051252",
                     "name": "Text#updateInputWidth",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2225,22 +2467,22 @@
             "params": [],
             "$longname": "Text#updateInputWidth",
             "$kind": "method",
-            "id": 1049,
+            "id": 1634,
             "neoClassName": "Neo.form.field.Text"
         },
         {
             "comment": "/**\n     * Since triggers do not get rendered, assign the relevant props\n     * todo: this could be handled by component.Base\n     */",
             "meta": {
                 "range": [
-                    21859,
-                    22393
+                    23456,
+                    23990
                 ],
                 "filename": "Text.mjs",
-                "lineno": 823,
+                "lineno": 872,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100033277",
+                    "id": "astnode100051308",
                     "name": "Text#updateTriggerVnodes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2258,7 +2500,7 @@
             "params": [],
             "$longname": "Text#updateTriggerVnodes",
             "$kind": "method",
-            "id": 1050,
+            "id": 1635,
             "neoClassName": "Neo.form.field.Text"
         }
     ]

@@ -1,5 +1,5 @@
-import Container                 from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
-import {default as HeaderButton} from '../../../node_modules/neo.mjs/src/tab/header/Button.mjs';
+import Container    from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
+import HeaderButton from '../../../node_modules/neo.mjs/src/tab/header/Button.mjs';
 
 /**
  * @class Docs.app.view.ContentTabContainer
@@ -9,12 +9,12 @@ class ContentTabContainer extends Container {
     static getConfig() {return {
         /**
          * @member {String} className='Docs.app.view.ContentTabContainer'
-         * @private
+         * @protected
          */
         className: 'Docs.app.view.ContentTabContainer',
         /**
          * @member {String} ntype='docs-content-tabcontainer'
-         * @private
+         * @protected
          */
         ntype: 'docs-content-tabcontainer',
         /**
@@ -46,14 +46,18 @@ class ContentTabContainer extends Container {
          */
         items: [{
             ntype: 'component',
-            html : 'Welcome to the neoteric docs!',
+            html : 'Welcome to the neo.mjs docs!',
             style: {padding: '20px'},
 
             tabButtonConfig: {
                 iconCls: 'fa fa-users',
                 text   : 'Welcome!'
             }
-        }]
+        }],
+        /**
+         * @member {Boolean} sortable=true
+         */
+        sortable: true
     }}
 
     /**
@@ -75,7 +79,7 @@ class ContentTabContainer extends Container {
      * @param {Object} config
      * @param {Number} index
      * @returns {Object} The merged config
-     * @private
+     * @protected
      * @override
      */
     getTabButtonConfig(config, index) {
@@ -86,20 +90,18 @@ class ContentTabContainer extends Container {
                 index  : index,
                 pressed: me.activeIndex === index,
 
-                domListeners: {
-                    click: {
-                        fn: function (data) {
-                            let path = data.path.map(e => e.id);
+                domListeners: [{
+                    click: function(data) {
+                        let path = data.path.map(e => e.id);
 
-                            if (path[0].indexOf('neo-tab-header-button-') === 0) {
-                                me.activeIndex = Neo.getComponent(data.target.id).index;
-                            } else {
-                                me.removeAt(Neo.getComponent(me.tabBarId).indexOf(path[1]))
-                            }
-                        },
-                        scope: me
-                    }
-                }
+                        if (path[0].indexOf('neo-tab-header-button-') === 0) {
+                            me.activeIndex = data.component.index;
+                        } else {
+                            me.removeAt(Neo.getComponent(me.tabBarId).indexOf(path[1]))
+                        }
+                    },
+                    scope: me
+                }]
             };
 
         return {...defaultConfig, ...config};

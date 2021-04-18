@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.container.Panel",
             "$kind": "class",
-            "id": 565,
+            "id": 904,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 566,
+            "id": 905,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -70,11 +70,11 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 567,
+            "id": 906,
             "neoClassName": "Neo.container.Panel"
         },
         {
-            "comment": "/**\n         * @member {String[]} cls=['neo-panel', 'neo-container']\n         */",
+            "comment": "/**\n         * @member {String[]} cls=['neo-panel','neo-container']\n         */",
             "meta": {
                 "filename": "Panel.mjs",
                 "lineno": 24,
@@ -89,13 +89,12 @@
                     "Array.<String>"
                 ]
             },
-            "defaultvalue": "['neo-panel', 'neo-container']",
-            "description": "'neo-container']",
+            "defaultvalue": "['neo-panel','neo-container']",
             "longname": "cls",
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 568,
+            "id": 907,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -119,7 +118,7 @@
             "scope": "global",
             "$longname": "containerConfig",
             "$kind": "property",
-            "id": 569,
+            "id": 908,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -143,7 +142,7 @@
             "scope": "global",
             "$longname": "headerDefaults",
             "$kind": "property",
-            "id": 570,
+            "id": 909,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -167,7 +166,7 @@
             "scope": "global",
             "$longname": "headers",
             "$kind": "property",
-            "id": 571,
+            "id": 910,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -192,7 +191,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 572,
+            "id": 911,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -216,22 +215,22 @@
             "scope": "global",
             "$longname": "verticalHeadersFirst",
             "$kind": "property",
-            "id": 573,
+            "id": 912,
             "neoClassName": "Neo.container.Panel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    1350,
-                    1659
+                    1323,
+                    1591
                 ],
                 "filename": "Panel.mjs",
                 "lineno": 54,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100020885",
+                    "id": "astnode100032689",
                     "name": "Panel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -258,54 +257,22 @@
             "scope": "global",
             "$longname": "Panel",
             "$kind": "constructor",
-            "id": 574,
-            "neoClassName": "Neo.container.Panel"
-        },
-        {
-            "comment": "/**\n     *\n     */",
-            "meta": {
-                "range": [
-                    1688,
-                    4377
-                ],
-                "filename": "Panel.mjs",
-                "lineno": 71,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/container",
-                "code": {
-                    "id": "astnode100020926",
-                    "name": "Panel#createItems",
-                    "type": "MethodDefinition",
-                    "paramnames": []
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "name": "createItems",
-            "longname": "Panel#createItems",
-            "kind": "function",
-            "memberof": "Panel",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Panel#createItems",
-            "$kind": "method",
-            "id": 575,
+            "id": 913,
             "neoClassName": "Neo.container.Panel"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} header the header config\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    4479,
-                    5290
+                    1693,
+                    2568
                 ],
                 "filename": "Panel.mjs",
-                "lineno": 149,
+                "lineno": 70,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100021260",
+                    "id": "astnode100032723",
                     "name": "Panel.createHeaderConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -343,7 +310,39 @@
             "scope": "static",
             "$longname": "Panel.createHeaderConfig",
             "$kind": "method",
-            "id": 576,
+            "id": 914,
+            "neoClassName": "Neo.container.Panel"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    2597,
+                    5286
+                ],
+                "filename": "Panel.mjs",
+                "lineno": 104,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/container",
+                "code": {
+                    "id": "astnode100032807",
+                    "name": "Panel#createItems",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "createItems",
+            "longname": "Panel#createItems",
+            "kind": "function",
+            "memberof": "Panel",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Panel#createItems",
+            "$kind": "method",
+            "id": 915,
             "neoClassName": "Neo.container.Panel"
         }
     ]

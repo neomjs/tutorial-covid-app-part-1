@@ -10,9 +10,9 @@
         Neo = self.Neo || {}; Neo.config = Neo.config || {};
 
         Object.assign(Neo.config, {
-            appPath         : '/apps/covid/app.js',
+            appPath         : '/apps/covid/app.mjs',
             basePath        : '../../../../',
-            environment     : 'development',
+            environment     : 'dist/development',
             mainThreadAddons: ['AmCharts', 'MapboxGL', 'Stylesheet'],
             themes          : ['neo-theme-dark', 'neo-theme-light'],
             useSharedWorkers: false,

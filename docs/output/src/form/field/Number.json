@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Number",
             "$kind": "class",
-            "id": 875,
+            "id": 1456,
             "neoClassName": "Neo.form.field.Number"
         },
         {
@@ -46,7 +46,7 @@
             "longname": "triggerPositions",
             "$longname": "triggerPositions",
             "$kind": "property",
-            "id": 876,
+            "id": 1457,
             "neoClassName": "Neo.form.field.Number"
         },
         {
@@ -71,7 +71,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 877,
+            "id": 1458,
             "neoClassName": "Neo.form.field.Number"
         },
         {
@@ -96,7 +96,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 878,
+            "id": 1459,
             "neoClassName": "Neo.form.field.Number"
         },
         {
@@ -121,14 +121,64 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 879,
+            "id": 1460,
+            "neoClassName": "Neo.form.field.Number"
+        },
+        {
+            "comment": "/**\n         * @member {Number[]|null} excluded=null\n         */",
+            "meta": {
+                "filename": "Number.mjs",
+                "lineno": 40,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "excluded",
+            "type": {
+                "names": [
+                    "Array.<Number>",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "excluded",
+            "scope": "global",
+            "$longname": "excluded",
+            "$kind": "property",
+            "id": 1461,
+            "neoClassName": "Neo.form.field.Number"
+        },
+        {
+            "comment": "/**\n         * false only allows changing the field using the spin buttons\n         * @member {Boolean} inputEditable_=true\n         */",
+            "meta": {
+                "filename": "Number.mjs",
+                "lineno": 45,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "description": "false only allows changing the field using the spin buttons",
+            "kind": "member",
+            "name": "inputEditable_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "inputEditable_",
+            "scope": "global",
+            "$longname": "inputEditable_",
+            "$kind": "property",
+            "id": 1462,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n         * Value for the inputType_ textfield config\n         * @member {String} inputType='number'\n         */",
             "meta": {
                 "filename": "Number.mjs",
-                "lineno": 41,
+                "lineno": 50,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -146,14 +196,14 @@
             "scope": "global",
             "$longname": "inputType",
             "$kind": "property",
-            "id": 880,
+            "id": 1463,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n         * @member {Number} maxValue_=100\n         */",
             "meta": {
                 "filename": "Number.mjs",
-                "lineno": 45,
+                "lineno": 54,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -170,14 +220,14 @@
             "scope": "global",
             "$longname": "maxValue_",
             "$kind": "property",
-            "id": 881,
+            "id": 1464,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n         * @member {Number} minValue_=0\n         */",
             "meta": {
                 "filename": "Number.mjs",
-                "lineno": 49,
+                "lineno": 58,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -194,14 +244,14 @@
             "scope": "global",
             "$longname": "minValue_",
             "$kind": "property",
-            "id": 882,
+            "id": 1465,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n         * @member {Number} stepSize_=1\n         */",
             "meta": {
                 "filename": "Number.mjs",
-                "lineno": 53,
+                "lineno": 62,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -218,14 +268,14 @@
             "scope": "global",
             "$longname": "stepSize_",
             "$kind": "property",
-            "id": 883,
+            "id": 1466,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n         * Valid values: 'right', 'sides'\n         * @member {String} triggerPosition='right'\n         */",
             "meta": {
                 "filename": "Number.mjs",
-                "lineno": 58,
+                "lineno": 67,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -243,14 +293,14 @@
             "scope": "global",
             "$longname": "triggerPosition",
             "$kind": "property",
-            "id": 884,
+            "id": 1467,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n         * @member {Boolean} useSpinButtons_=true\n         */",
             "meta": {
                 "filename": "Number.mjs",
-                "lineno": 62,
+                "lineno": 71,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {}
@@ -267,54 +317,76 @@
             "scope": "global",
             "$longname": "useSpinButtons_",
             "$kind": "property",
-            "id": 885,
+            "id": 1468,
             "neoClassName": "Neo.form.field.Number"
         },
         {
-            "comment": "/**\n     *\n     */",
+            "comment": "/**\n     * Triggered after the inputEditable config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    1880,
-                    1965
+                    2237,
+                    2580
                 ],
                 "filename": "Number.mjs",
-                "lineno": 68,
+                "lineno": 80,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028476",
-                    "name": "Number#onConstructed",
+                    "id": "astnode100046404",
+                    "name": "Number#afterSetInputEditable",
                     "type": "MethodDefinition",
-                    "paramnames": []
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
                 },
                 "vars": {
                     "": null
                 }
             },
-            "name": "onConstructed",
-            "longname": "Number#onConstructed",
+            "description": "Triggered after the inputEditable config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "protected",
+            "name": "afterSetInputEditable",
+            "longname": "Number#afterSetInputEditable",
             "kind": "function",
             "memberof": "Number",
             "scope": "instance",
-            "params": [],
-            "$longname": "Number#onConstructed",
+            "$longname": "Number#afterSetInputEditable",
             "$kind": "method",
-            "id": 886,
+            "id": 1469,
             "neoClassName": "Neo.form.field.Number"
         },
         {
-            "comment": "/**\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @protected\n     */",
+            "comment": "/**\n     * Triggered after the maxValue config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    2066,
-                    2152
+                    2736,
+                    2822
                 ],
                 "filename": "Number.mjs",
-                "lineno": 78,
+                "lineno": 101,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028490",
+                    "id": "astnode100046453",
                     "name": "Number#afterSetMaxValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -326,6 +398,7 @@
                     "": null
                 }
             },
+            "description": "Triggered after the maxValue config got changed",
             "params": [
                 {
                     "type": {
@@ -352,22 +425,22 @@
             "scope": "instance",
             "$longname": "Number#afterSetMaxValue",
             "$kind": "method",
-            "id": 887,
+            "id": 1470,
             "neoClassName": "Neo.form.field.Number"
         },
         {
-            "comment": "/**\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @protected\n     */",
+            "comment": "/**\n     * Triggered after the minValue config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    2253,
-                    2339
+                    2978,
+                    3064
                 ],
                 "filename": "Number.mjs",
-                "lineno": 87,
+                "lineno": 111,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028503",
+                    "id": "astnode100046466",
                     "name": "Number#afterSetMinValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -379,6 +452,7 @@
                     "": null
                 }
             },
+            "description": "Triggered after the minValue config got changed",
             "params": [
                 {
                     "type": {
@@ -405,22 +479,22 @@
             "scope": "instance",
             "$longname": "Number#afterSetMinValue",
             "$kind": "method",
-            "id": 888,
+            "id": 1471,
             "neoClassName": "Neo.form.field.Number"
         },
         {
-            "comment": "/**\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @protected\n     */",
+            "comment": "/**\n     * Triggered after the stepSize config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    2440,
-                    3237
+                    3220,
+                    4017
                 ],
                 "filename": "Number.mjs",
-                "lineno": 96,
+                "lineno": 121,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028516",
+                    "id": "astnode100046479",
                     "name": "Number#afterSetStepSize",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -432,6 +506,7 @@
                     "": null
                 }
             },
+            "description": "Triggered after the stepSize config got changed",
             "params": [
                 {
                     "type": {
@@ -458,22 +533,22 @@
             "scope": "instance",
             "$longname": "Number#afterSetStepSize",
             "$kind": "method",
-            "id": 889,
+            "id": 1472,
             "neoClassName": "Neo.form.field.Number"
         },
         {
-            "comment": "/**\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
+            "comment": "/**\n     * Triggered after the triggerPosition config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    3338,
-                    3455
+                    4180,
+                    4297
                 ],
                 "filename": "Number.mjs",
-                "lineno": 123,
+                "lineno": 149,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028644",
+                    "id": "astnode100046607",
                     "name": "Number#afterSetTriggerPosition",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -485,6 +560,7 @@
                     "": null
                 }
             },
+            "description": "Triggered after the triggerPosition config got changed",
             "params": [
                 {
                     "type": {
@@ -511,22 +587,22 @@
             "scope": "instance",
             "$longname": "Number#afterSetTriggerPosition",
             "$kind": "method",
-            "id": 890,
+            "id": 1473,
             "neoClassName": "Neo.form.field.Number"
         },
         {
-            "comment": "/**\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
+            "comment": "/**\n     * Triggered after the useSpinButtons config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    3558,
-                    3695
+                    4461,
+                    4598
                 ],
                 "filename": "Number.mjs",
-                "lineno": 134,
+                "lineno": 161,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028658",
+                    "id": "astnode100046621",
                     "name": "Number#afterSetUseSpinButtons",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -538,6 +614,7 @@
                     "": null
                 }
             },
+            "description": "Triggered after the useSpinButtons config got changed",
             "params": [
                 {
                     "type": {
@@ -564,22 +641,22 @@
             "scope": "instance",
             "$longname": "Number#afterSetUseSpinButtons",
             "$kind": "method",
-            "id": 891,
+            "id": 1474,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n     * Triggered before the triggerPosition config gets changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    3860,
-                    3985
+                    4763,
+                    4888
                 ],
                 "filename": "Number.mjs",
-                "lineno": 146,
+                "lineno": 173,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028675",
+                    "id": "astnode100046638",
                     "name": "Number#beforeSetTriggerPosition",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -618,22 +695,54 @@
             "scope": "instance",
             "$longname": "Number#beforeSetTriggerPosition",
             "$kind": "method",
-            "id": 892,
+            "id": 1475,
+            "neoClassName": "Neo.form.field.Number"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    4917,
+                    5002
+                ],
+                "filename": "Number.mjs",
+                "lineno": 180,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100046652",
+                    "name": "Number#onConstructed",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onConstructed",
+            "longname": "Number#onConstructed",
+            "kind": "function",
+            "memberof": "Number",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Number#onConstructed",
+            "$kind": "method",
+            "id": 1476,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n     * @param {Object} data\n     * @override\n     */",
             "meta": {
                 "range": [
-                    4052,
-                    4729
+                    5069,
+                    5746
                 ],
                 "filename": "Number.mjs",
-                "lineno": 154,
+                "lineno": 189,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028689",
+                    "id": "astnode100046666",
                     "name": "Number#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -662,58 +771,22 @@
             "scope": "instance",
             "$longname": "Number#onInputValueChange",
             "$kind": "method",
-            "id": 893,
+            "id": 1477,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    4769,
-                    4913
+                    5786,
+                    6236
                 ],
                 "filename": "Number.mjs",
-                "lineno": 181,
+                "lineno": 216,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028789",
-                    "name": "Number#onSpinButtonClick",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "value",
-                        "oldValue"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "access": "protected",
-            "name": "onSpinButtonClick",
-            "longname": "Number#onSpinButtonClick",
-            "kind": "function",
-            "memberof": "Number",
-            "scope": "instance",
-            "params": [],
-            "$longname": "Number#onSpinButtonClick",
-            "$kind": "method",
-            "id": 894,
-            "neoClassName": "Neo.form.field.Number"
-        },
-        {
-            "comment": "/**\n     * @protected\n     */",
-            "meta": {
-                "range": [
-                    4953,
-                    5273
-                ],
-                "filename": "Number.mjs",
-                "lineno": 191,
-                "columnno": 4,
-                "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
-                "code": {
-                    "id": "astnode100028806",
+                    "id": "astnode100046766",
                     "name": "Number#onSpinButtonDownClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -731,22 +804,22 @@
             "params": [],
             "$longname": "Number#onSpinButtonDownClick",
             "$kind": "method",
-            "id": 895,
+            "id": 1478,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    5313,
-                    5664
+                    6276,
+                    6724
                 ],
                 "filename": "Number.mjs",
-                "lineno": 205,
+                "lineno": 235,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028859",
+                    "id": "astnode100046841",
                     "name": "Number#onSpinButtonUpClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -764,22 +837,22 @@
             "params": [],
             "$longname": "Number#onSpinButtonUpClick",
             "$kind": "method",
-            "id": 896,
+            "id": 1479,
             "neoClassName": "Neo.form.field.Number"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    5693,
-                    6698
+                    6753,
+                    7758
                 ],
                 "filename": "Number.mjs",
-                "lineno": 221,
+                "lineno": 254,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028918",
+                    "id": "astnode100046916",
                     "name": "Number#updateTriggers",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -796,7 +869,7 @@
             "params": [],
             "$longname": "Number#updateTriggers",
             "$kind": "method",
-            "id": 897,
+            "id": 1480,
             "neoClassName": "Neo.form.field.Number"
         }
     ]
