@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.MainContainerController",
             "$kind": "class",
-            "id": 3206,
+            "id": 3203,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3207,
+            "id": 3204,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "apiSummaryUrl",
             "$kind": "property",
-            "id": 3208,
+            "id": 3205,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -83,7 +83,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
                 "code": {
-                    "id": "astnode100105148",
+                    "id": "astnode100104997",
                     "name": "MainContainerController#applySummaryData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -152,7 +152,7 @@
             "scope": "instance",
             "$longname": "MainContainerController#applySummaryData",
             "$kind": "method",
-            "id": 3209,
+            "id": 3206,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -167,7 +167,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
                 "code": {
-                    "id": "astnode100105316",
+                    "id": "astnode100105165",
                     "name": "MainContainerController#loadSummaryData",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -184,7 +184,7 @@
             "params": [],
             "$longname": "MainContainerController#loadSummaryData",
             "$kind": "method",
-            "id": 3210,
+            "id": 3207,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -199,7 +199,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
                 "code": {
-                    "id": "astnode100105364",
+                    "id": "astnode100105213",
                     "name": "MainContainerController#onReloadDataButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -227,7 +227,7 @@
             "scope": "instance",
             "$longname": "MainContainerController#onReloadDataButtonClick",
             "$kind": "method",
-            "id": 3211,
+            "id": 3208,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -242,7 +242,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid/view",
                 "code": {
-                    "id": "astnode100105374",
+                    "id": "astnode100105223",
                     "name": "MainContainerController#onSwitchThemeButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -270,7 +270,7 @@
             "scope": "instance",
             "$longname": "MainContainerController#onSwitchThemeButtonClick",
             "$kind": "method",
-            "id": 3212,
+            "id": 3209,
             "neoClassName": "Covid.view.MainContainerController"
         }
     ]

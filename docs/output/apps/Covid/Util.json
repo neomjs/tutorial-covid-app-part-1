@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Covid.Util",
             "$kind": "class",
-            "id": 3196,
+            "id": 3193,
             "neoClassName": "Covid.Util"
         },
         {
@@ -46,7 +46,7 @@
             "longname": "locales",
             "$longname": "locales",
             "$kind": "property",
-            "id": 3197,
+            "id": 3194,
             "neoClassName": "Covid.Util"
         },
         {
@@ -71,7 +71,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3198,
+            "id": 3195,
             "neoClassName": "Covid.Util"
         },
         {
@@ -86,7 +86,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/tutorial-covid-app-part-1/apps/covid",
                 "code": {
-                    "id": "astnode100104742",
+                    "id": "astnode100104591",
                     "name": "Util.formatNumber",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -142,7 +142,7 @@
             "scope": "static",
             "$longname": "Util.formatNumber",
             "$kind": "method",
-            "id": 3199,
+            "id": 3196,
             "neoClassName": "Covid.Util"
         }
     ]
