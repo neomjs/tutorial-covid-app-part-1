@@ -24,7 +24,7 @@
             "output": "/apps/covid/",
             "themes": "'neo-theme-dark', 'neo-theme-light'",
             "title": "Covid",
-            "mainThreadAddons": "'AmCharts', 'MapboxGL', 'Stylesheet'"
+            "mainThreadAddons": "'Stylesheet'"
         }
     }
 }
